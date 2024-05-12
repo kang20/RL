@@ -85,7 +85,7 @@ def main():
             history.append((x, y, reward))
         env.reset()
 
-        cur_reward = 9  # G(t)
+        cur_reward = 0  # G(t)
         for transition in history[::-1]:  # 뒤부터 계산
             x, y, reward = transition
             data[x][y] = data[x][y] + alpha * (cur_reward - data[x][y])

@@ -3,7 +3,7 @@
 - ReinForceMent Learning Training CODE
 - 2024.03 ~ 현재
 
-## 🧑‍💻 팀원 소개
+## 🧑‍💻 레지던트
 
 
 | 이름 |  박효준  |  강민기  |

@@ -10,7 +10,7 @@
 |  | <img src="https://github.com/Kyxxn/React_Metaverse/assets/129862357/440e93ab-233b-47ef-9637-a4515d13d915" width="150"/> | <img src="https://avatars.githubusercontent.com/u/75325326?s=48&v=4" width="150"/> |
 | 깃허브 | [@Kyxxn](https://github.com/Kyxxn) | [@kang20](https://github.com/kang20) |
 
-## 세미나
+## 🗓️ 세미나
 | 회차 | 주차 | 바닥부터 배우는 강화 학습 |
 |------|------|---------------------------|
 | 1 | 4/8 | Ch.1 강화 학습이란 <br> Ch.2 마르코프 결정 프로세스 |

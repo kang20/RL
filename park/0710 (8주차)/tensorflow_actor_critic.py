@@ -12,16 +12,19 @@ class ActorCritic(tf.keras.Model):
     def __init__(self):
         super(ActorCritic, self).__init__()
         self.data = []
-        self.fc1 = layers.Dense(256, activation='relu')  # 첫 번째 완전연결층
+        self.fc1 = layers.Dense(256, activation='relu')  # 첫 번째 완전 연결층
         self.fc_pi = layers.Dense(2, activation='softmax')  # 정책 네트워크의 출력층
         self.fc_v = layers.Dense(1)  # 가치 네트워크의 출력층
         self.optimizer = optimizers.Adam(learning_rate=learning_rate)  # Adam 옵티마이저
 
+    # 상태 s를 받아서 정책 네트워크를 통해 액션별 선택 확률 값을 리턴
+    # 정책 확률 계산
     def pi(self, x):
         x = self.fc1(x)
         prob = self.fc_pi(x)  # 행동 확률
         return prob
 
+    # 상태 s를 받아서 가치 네트워크를 통해 상태 가치를 리턴
     def v(self, x):
         x = self.fc1(x)
         v = self.fc_v(x)  # 상태 가치
@@ -53,19 +56,20 @@ class ActorCritic(tf.keras.Model):
         return s_batch, a_batch, r_batch, s_prime_batch, done_batch
 
     def train_net(self):
-        s, a, r, s_prime, done = self.make_batch()
+        s, a, r, s_prime, done = self.make_batch()  # 배치 생성
         with tf.GradientTape() as tape:
-            td_target = r + gamma * self.v(s_prime) * done # TD 타겟 계산
-            delta = td_target - self.v(s) # TD 오류 계산
-            pi = self.pi(s) # 정책 확률 계산
-            pi_a = tf.gather_nd(pi, a, batch_dims=1) # 선택된 행동의 확률 추출
+            td_target = r + gamma * self.v(s_prime) * done  # TD 타겟 계산
+            delta = td_target - self.v(s)  # TD 오류 계산
+            pi = self.pi(s)  # 정책 확률 계산
+            pi_a = tf.gather_nd(pi, a, batch_dims=1)  # 선택된 행동의 확률 추출
 
-            # 손실 함수 계산 (정책 손실 + 가치 손실)
-            loss = -tf.reduce_mean(tf.math.log(pi_a) * delta) + tf.reduce_mean(losses.Huber()(td_target, self.v(s)))
-        # 그래디언트 계산 및 적용
-        grads = tape.gradient(loss, self.trainable_variables)
-        self.optimizer.apply_gradients(zip(grads, self.trainable_variables)) # 네트워크 가중치 업데이트
+            # 정책 손실과 가치 손실의 결합된 손실 함수 (MSE 사용)
+            policy_loss = -tf.reduce_mean(tf.math.log(pi_a) * delta)  # 정책 손실
+            value_loss = tf.reduce_mean(tf.square(td_target - self.v(s)))  # 가치 손실 (MSE)
+            loss = policy_loss + value_loss  # 전체 손실
 
+        grads = tape.gradient(loss, self.trainable_variables)  # 손실에 대한 그래디언트 계산
+        self.optimizer.apply_gradients(zip(grads, self.trainable_variables))  # 모델 파라미터 업데이트
 
 def main():
     env = gym.make('CartPole-v1')

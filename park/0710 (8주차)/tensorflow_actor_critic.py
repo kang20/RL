@@ -31,16 +31,18 @@ class ActorCritic(tf.keras.Model):
         self.data.append(transition)  # 샘플 데이터 저장
 
     def make_batch(self):
+        # 배치 데이터를 담을 리스트 초기화
         s_lst, a_lst, r_lst, s_prime_lst, done_lst = [], [], [], [], []
         for transition in self.data:
             s, a, r, s_prime, done = transition
             s_lst.append(s)
             a_lst.append([a])
-            r_lst.append([r / 100.0])
+            r_lst.append([r / 100.0]) # 보상 스케일 조정
             s_prime_lst.append(s_prime)
-            done_mask = 0.0 if done else 1.0
+            done_mask = 0.0 if done else 1.0 # 종료 여부를 마스크로 변환
             done_lst.append([done_mask])
 
+        # 리스트를 텐서로 변환
         s_batch = tf.convert_to_tensor(np.array(s_lst), dtype=tf.float32)
         a_batch = tf.convert_to_tensor(np.array(a_lst), dtype=tf.int32)
         r_batch = tf.convert_to_tensor(np.array(r_lst), dtype=tf.float32)
@@ -53,36 +55,41 @@ class ActorCritic(tf.keras.Model):
     def train_net(self):
         s, a, r, s_prime, done = self.make_batch()
         with tf.GradientTape() as tape:
-            td_target = r + gamma * self.v(s_prime) * done
-            delta = td_target - self.v(s)
-            pi = self.pi(s)
-            pi_a = tf.gather_nd(pi, a, batch_dims=1)
+            td_target = r + gamma * self.v(s_prime) * done # TD 타겟 계산
+            delta = td_target - self.v(s) # TD 오류 계산
+            pi = self.pi(s) # 정책 확률 계산
+            pi_a = tf.gather_nd(pi, a, batch_dims=1) # 선택된 행동의 확률 추출
+
+            # 손실 함수 계산 (정책 손실 + 가치 손실)
             loss = -tf.reduce_mean(tf.math.log(pi_a) * delta) + tf.reduce_mean(losses.Huber()(td_target, self.v(s)))
+        # 그래디언트 계산 및 적용
         grads = tape.gradient(loss, self.trainable_variables)
-        self.optimizer.apply_gradients(zip(grads, self.trainable_variables))  # 네트워크 가중치 업데이트
+        self.optimizer.apply_gradients(zip(grads, self.trainable_variables)) # 네트워크 가중치 업데이트
 
 
 def main():
     env = gym.make('CartPole-v1')
-    model = ActorCritic()
+    model = ActorCritic() # ActorCritic 모델 생성
     print_interval = 20
     score = 0.0
 
     for n_epi in range(10000):
         done = False
-        s = env.reset()
+        s = env.reset() # 환경 초기화
         while not done:
-            for t in range(n_rollout):
-                s_tensor = tf.convert_to_tensor(np.array([s]), dtype=tf.float32)
-                prob = model.pi(s_tensor)
-                a = np.random.choice(range(prob.shape[1]), p=prob.numpy()[0])  # 행동 선택
-                s_prime, r, done, info = env.step(a)
-                model.put_data((s, a, r, s_prime, done))
+            for t in range(n_rollout): # 10개를 모아서 업데이트
+                s_tensor = tf.convert_to_tensor(np.array([s]), dtype=tf.float32) # 상태를 텐서로 변환
+                prob = model.pi(s_tensor)  # 정책 네트워크로부터 행동 확률 계산
+                a = np.random.choice(range(prob.shape[1]), p=prob.numpy()[0]) # 확률에 따라 행동 선택
+                s_prime, r, done, info = env.step(a) # 환경에서 다음 상태, 보상 받기
+                model.put_data((s, a, r, s_prime, done))  # 데이터 저장
                 s = s_prime
                 score += r
+
                 if done:
                     break
-            model.train_net()
+            model.train_net() # 네트워크 학습
+            
         if n_epi % print_interval == 0 and n_epi != 0:
             print("# of episode :{}, avg score : {:.1f}".format(n_epi, score / print_interval))
             score = 0.0

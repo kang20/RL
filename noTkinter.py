@@ -1,6 +1,4 @@
-import tkinter as tk
 import math
-import time
 import random
 import numpy as np
 from collections import deque
@@ -12,37 +10,27 @@ import datetime
 
 # Ball 클래스 생성 : player, ball(들) 생성 시 사용
 class Ball:
-    def __init__(self, canvas, color, x, y, r, speed_x, speed_y):
-        self.canvas = canvas
-        self.color = color                      # 색깔
+    def __init__(self, x, y, r, speed_x, speed_y):
         self.x = x                              # 중심 좌표
         self.y = y
         self.r = r                              # 반지름
         self.speed_x = speed_x                  # 속도
         self.speed_y = speed_y
-        self.id = canvas.create_oval(x - r, y - r, x + r, y + r, fill=color)
 
-
-    def Move(self):
+    def Move(self, width, height):
         # 현재 속도(speed_x, speed_y)에 따라 이동한다.
-        self.canvas.move(self.id, self.speed_x, self.speed_y)
-        self.canvas.update()
-        # 공의 현재 위치를 얻는다. (왼쪽-위 꼭지점의 좌표가 반환됨)
-        (x1, y1, x2, y2) = self.canvas.coords(self.id)
-        # 공의 위치를 갱신한다.
-        self.x, self.y = x1 + self.r, y1 + self.r  # 나중에 필요한 경우 사용
+        self.x += self.speed_x
+        self.y += self.speed_y
+        # 벽과의 충돌 체크
+        self.CheckCollisionWall(width, height)
 
-    def CheckCollisionWall(self):
+    def CheckCollisionWall(self, width, height):
         # 왼쪽 또는 오른쪽 경계를 넘으면 x 속도의 부호를 반전시킨다.
-        collision = False                          # 벽과의 충돌 여부
-        if self.x - self.r <= 0 or self.x + self.r >= self.canvas.winfo_width():
+        if self.x - self.r <= 0 or self.x + self.r >= width:
             self.speed_x = -self.speed_x
-            collision = True
         # 위 또는 아래 경계를 넘으면 y 속도의 부호를 반전시킨다.
-        if self.y - self.r <= 0 or self.y + self.r >= self.canvas.winfo_height():
+        if self.y - self.r <= 0 or self.y + self.r >= height:
             self.speed_y = -self.speed_y
-            collision = True
-        return collision
 
     def CheckCollisionBall(self, ball):
         distance = math.sqrt((self.x - ball.x) ** 2 + (self.y - ball.y) ** 2)
@@ -54,51 +42,36 @@ class Ball:
         self.speed_x = speed_x
         self.speed_y = speed_y
 
-    def Delete(self):
-        self.canvas.delete(self.id)
-
 class MovingBallsEnv:
-    def __init__(self, window):
+    def __init__(self):
         self.ball_count = 5
         self.state_size = 4 + self.ball_count * 4       # 인공 신경망 입력 : player의 중심좌표와 방향(x,y,speed_x,speed_y) + 공 개수 * 각 공의 중심좌표와 방향 (x,y,speed_x,speed_y)
         self.action_size = 4                            # 출력 : 방향 전환 (0, 1, 2, 3 => 동, 서, 남, 북)+
-
-        self.window = window
-        self.canvas = tk.Canvas(self.window, width = 600, height = 400, background="white")
-        self.canvas.pack(expand = 1, fill = tk.BOTH)
+        self.width = 600
+        self.height = 400
         self.player = None
 
     def Reset(self):
-        self.Clear()
-
         # player 생성
-        self.player = Ball(self.canvas, "green", 400, 200, 25, 10, 0)
+        self.player = Ball(400, 200, 25, 10, 0)
 
         # ball들 생성
         self.balls = []
         for i in range(self.ball_count):
-            self.balls.append(Ball(self.canvas, "red", 100, 100, 25,
-                              random.randint(1, 10), random.randint(1, 10)))
+            self.balls.append(Ball(100, 100, 25, random.randint(1, 10), random.randint(1, 10)))
 
         return self.MakeState()
-
-    def Clear(self):
-        if self.player:
-            self.player.Delete()
-            for ball in self.balls:
-                ball.Delete()
 
     # 주기적으로 이동
     def Move(self):
         done = False
         reward = 1
-        self.player.Move()               # player 이동
-        if self.player.CheckCollisionWall():
+        self.player.Move(self.width, self.height)  # player 이동
+        if self.player.CheckCollisionWall(self.width, self.height):
             done = True
             reward = -100  # 벽과 충돌하면 큰 페널티
         for ball in self.balls:              # ball들 이동
-            ball.Move()
-            ball.CheckCollisionWall()
+            ball.Move(self.width, self.height)
         for ball in self.balls:
             if self.player.CheckCollisionBall(ball):
                 done = True
@@ -179,24 +152,17 @@ class DQNAgent:
             log_file.write(log_message)
 
 # 환경 만들기
-window = tk.Tk()
-env = MovingBallsEnv(window)
-
+env = MovingBallsEnv()
 agent = DQNAgent(env.state_size, env.action_size)
 batch_size = 32
 
-
-
 def main():
-    global env, agent      # 환경 및 에이전트
-    done = False
     state = env.Reset()
     state = np.reshape(state, [1, env.state_size])
     score = 0
 
-    def step():
-        nonlocal state, score, done
-
+    done = False
+    while not done:
         action = agent.act(state)
         next_state, reward, done = env.Step(action)
         next_state = np.reshape(next_state, [1, env.state_size])
@@ -212,10 +178,5 @@ def main():
             state = env.Reset()
             state = np.reshape(state, [1, env.state_size])
 
-        # 다시 호출
-        window.after(50, step)  # 50ms 후 step 함수 호출
-
-    step()
-
-window.after(1000, main)  # 1000ms 후 main 함수 호출
-window.mainloop()
+if __name__ == "__main__":
+    main()

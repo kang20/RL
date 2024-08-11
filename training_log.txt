@@ -1,0 +1,14 @@
+[08-12 01:26:06] New Score: -63, Best Score: -63, Average Score: -63.0
+[08-12 01:26:14] New Score: -59, Best Score: -59, Average Score: -61.0
+[08-12 01:26:18] New Score: -80, Best Score: -59, Average Score: -67.33333333333333
+[08-12 01:26:26] New Score: -55, Best Score: -55, Average Score: -64.25
+[08-12 01:26:35] New Score: -44, Best Score: -44, Average Score: -60.2
+[08-12 01:26:45] New Score: -35, Best Score: -35, Average Score: -56.0
+[08-12 01:27:01] New Score: 10, Best Score: 10, Average Score: -46.57142857142857
+[08-12 01:27:20] New Score: 25, Best Score: 25, Average Score: -37.625
+[08-12 01:27:25] New Score: -72, Best Score: 25, Average Score: -41.44444444444444
+[08-12 01:27:34] New Score: -44, Best Score: 25, Average Score: -41.7
+[08-12 01:27:45] New Score: -31, Best Score: 25, Average Score: -40.72727272727273
+[08-12 01:28:00] New Score: -5, Best Score: 25, Average Score: -37.75
+[08-12 01:28:10] New Score: -32, Best Score: 25, Average Score: -37.30769230769231
+[08-12 01:28:23] New Score: -19, Best Score: 25, Average Score: -36.0

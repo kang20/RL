@@ -1,0 +1,408 @@
+[08-14 00:26:54] New Score: -233, Best Score: -233, Average Score: -233.0
+ step num : 58 , max step num : 58, average step num : 58.0
+[08-14 00:26:59] New Score: -183, Best Score: -183, Average Score: -208.0
+ step num : 28 , max step num : 58, average step num : 43.0
+[08-14 00:27:03] New Score: -219, Best Score: -183, Average Score: -211.66666666666666
+ step num : 32 , max step num : 58, average step num : 39.333333333333336
+[08-14 00:27:09] New Score: -223, Best Score: -183, Average Score: -214.5
+ step num : 48 , max step num : 58, average step num : 41.5
+[08-14 00:27:13] New Score: -181, Best Score: -181, Average Score: -207.8
+ step num : 30 , max step num : 58, average step num : 39.2
+[08-14 00:27:19] New Score: -85, Best Score: -85, Average Score: -187.33333333333334
+ step num : 46 , max step num : 58, average step num : 40.333333333333336
+[08-14 00:27:26] New Score: -116, Best Score: -85, Average Score: -177.14285714285714
+ step num : 65 , max step num : 65, average step num : 43.857142857142854
+[08-14 00:27:32] New Score: -152, Best Score: -85, Average Score: -174.0
+ step num : 49 , max step num : 65, average step num : 44.5
+[08-14 00:27:37] New Score: -239, Best Score: -85, Average Score: -181.22222222222223
+ step num : 32 , max step num : 65, average step num : 43.111111111111114
+[08-14 00:27:47] New Score: -79, Best Score: -79, Average Score: -171.0
+ step num : 92 , max step num : 92, average step num : 48.0
+[08-14 00:27:52] New Score: -222, Best Score: -79, Average Score: -175.63636363636363
+ step num : 39 , max step num : 92, average step num : 47.18181818181818
+[08-14 00:27:56] New Score: -238, Best Score: -79, Average Score: -180.83333333333334
+ step num : 23 , max step num : 92, average step num : 45.166666666666664
+[08-14 00:28:03] New Score: -185, Best Score: -79, Average Score: -181.15384615384616
+ step num : 66 , max step num : 92, average step num : 46.76923076923077
+[08-14 00:28:16] New Score: 97, Best Score: 97, Average Score: -161.28571428571428
+ step num : 118 , max step num : 118, average step num : 51.857142857142854
+[08-14 00:28:21] New Score: -6, Best Score: 97, Average Score: -150.93333333333334
+ step num : 45 , max step num : 118, average step num : 51.4
+[08-14 00:28:27] New Score: -180, Best Score: 97, Average Score: -152.75
+ step num : 41 , max step num : 118, average step num : 50.75
+[08-14 00:28:32] New Score: -176, Best Score: 97, Average Score: -154.11764705882354
+ step num : 45 , max step num : 118, average step num : 50.411764705882355
+[08-14 00:28:37] New Score: -180, Best Score: 97, Average Score: -155.55555555555554
+ step num : 41 , max step num : 118, average step num : 49.888888888888886
+[08-14 00:28:42] New Score: -123, Best Score: 97, Average Score: -153.8421052631579
+ step num : 28 , max step num : 118, average step num : 48.73684210526316
+[08-14 00:28:46] New Score: -137, Best Score: 97, Average Score: -153.0
+ step num : 34 , max step num : 118, average step num : 48.0
+[08-14 00:28:51] New Score: -142, Best Score: 97, Average Score: -152.47619047619048
+ step num : 39 , max step num : 118, average step num : 47.57142857142857
+[08-14 00:28:56] New Score: -148, Best Score: 97, Average Score: -152.27272727272728
+ step num : 33 , max step num : 118, average step num : 46.90909090909091
+[08-14 00:29:00] New Score: -170, Best Score: 97, Average Score: -153.04347826086956
+ step num : 31 , max step num : 118, average step num : 46.21739130434783
+[08-14 00:29:05] New Score: -186, Best Score: 97, Average Score: -154.41666666666666
+ step num : 35 , max step num : 118, average step num : 45.75
+[08-14 00:29:12] New Score: -179, Best Score: 97, Average Score: -155.4
+ step num : 52 , max step num : 118, average step num : 46.0
+[08-14 00:29:21] New Score: 30, Best Score: 97, Average Score: -148.26923076923077
+ step num : 81 , max step num : 118, average step num : 47.34615384615385
+[08-14 00:29:25] New Score: -214, Best Score: 97, Average Score: -150.7037037037037
+ step num : 27 , max step num : 118, average step num : 46.592592592592595
+[08-14 00:29:32] New Score: -130, Best Score: 97, Average Score: -149.96428571428572
+ step num : 51 , max step num : 118, average step num : 46.75
+[08-14 00:29:39] New Score: -107, Best Score: 97, Average Score: -148.48275862068965
+ step num : 64 , max step num : 118, average step num : 47.3448275862069
+[08-14 00:29:47] New Score: -43, Best Score: 97, Average Score: -144.96666666666667
+ step num : 68 , max step num : 118, average step num : 48.03333333333333
+[08-14 00:29:53] New Score: -153, Best Score: 97, Average Score: -145.2258064516129
+ step num : 38 , max step num : 118, average step num : 47.70967741935484
+[08-14 00:30:00] New Score: -158, Best Score: 97, Average Score: -145.625
+ step num : 63 , max step num : 118, average step num : 48.1875
+[08-14 00:30:09] New Score: -148, Best Score: 97, Average Score: -145.6969696969697
+ step num : 73 , max step num : 118, average step num : 48.93939393939394
+[08-14 00:30:13] New Score: -95, Best Score: 97, Average Score: -144.2058823529412
+ step num : 36 , max step num : 118, average step num : 48.55882352941177
+[08-14 00:30:22] New Score: -108, Best Score: 97, Average Score: -143.17142857142858
+ step num : 73 , max step num : 118, average step num : 49.25714285714286
+[08-14 00:30:30] New Score: -183, Best Score: 97, Average Score: -144.27777777777777
+ step num : 68 , max step num : 118, average step num : 49.77777777777778
+[08-14 00:30:37] New Score: -95, Best Score: 97, Average Score: -142.94594594594594
+ step num : 56 , max step num : 118, average step num : 49.945945945945944
+[08-14 00:30:42] New Score: -104, Best Score: 97, Average Score: -141.92105263157896
+ step num : 37 , max step num : 118, average step num : 49.60526315789474
+[08-14 00:30:54] New Score: -51, Best Score: 97, Average Score: -139.5897435897436
+ step num : 110 , max step num : 118, average step num : 51.15384615384615
+[08-14 00:31:02] New Score: -267, Best Score: 97, Average Score: -142.775
+ step num : 64 , max step num : 118, average step num : 51.475
+[08-14 00:31:07] New Score: -139, Best Score: 97, Average Score: -142.6829268292683
+ step num : 32 , max step num : 118, average step num : 51.0
+[08-14 00:31:11] New Score: -174, Best Score: 97, Average Score: -143.42857142857142
+ step num : 27 , max step num : 118, average step num : 50.42857142857143
+[08-14 00:31:15] New Score: -217, Best Score: 97, Average Score: -145.13953488372093
+ step num : 34 , max step num : 118, average step num : 50.04651162790697
+[08-14 00:31:24] New Score: -202, Best Score: 97, Average Score: -146.4318181818182
+ step num : 79 , max step num : 118, average step num : 50.70454545454545
+[08-14 00:31:30] New Score: -65, Best Score: 97, Average Score: -144.62222222222223
+ step num : 46 , max step num : 118, average step num : 50.6
+[08-14 00:31:35] New Score: -139, Best Score: 97, Average Score: -144.5
+ step num : 32 , max step num : 118, average step num : 50.19565217391305
+[08-14 00:31:41] New Score: -232, Best Score: 97, Average Score: -146.36170212765958
+ step num : 49 , max step num : 118, average step num : 50.170212765957444
+[08-14 00:31:45] New Score: -152, Best Score: 97, Average Score: -146.47916666666666
+ step num : 29 , max step num : 118, average step num : 49.729166666666664
+[08-14 00:31:53] New Score: -168, Best Score: 97, Average Score: -146.91836734693877
+ step num : 73 , max step num : 118, average step num : 50.204081632653065
+[08-14 00:32:01] New Score: -185, Best Score: 97, Average Score: -147.68
+ step num : 66 , max step num : 118, average step num : 50.52
+[08-14 00:32:07] New Score: -80, Best Score: 97, Average Score: -146.35294117647058
+ step num : 41 , max step num : 118, average step num : 50.333333333333336
+[08-14 00:32:13] New Score: -13, Best Score: 97, Average Score: -143.78846153846155
+ step num : 48 , max step num : 118, average step num : 50.28846153846154
+[08-14 00:32:22] New Score: -126, Best Score: 97, Average Score: -143.45283018867926
+ step num : 75 , max step num : 118, average step num : 50.75471698113208
+[08-14 00:32:26] New Score: -103, Best Score: 97, Average Score: -142.7037037037037
+ step num : 28 , max step num : 118, average step num : 50.333333333333336
+[08-14 00:32:33] New Score: -47, Best Score: 97, Average Score: -140.96363636363637
+ step num : 64 , max step num : 118, average step num : 50.58181818181818
+[08-14 00:32:40] New Score: -67, Best Score: 97, Average Score: -139.64285714285714
+ step num : 54 , max step num : 118, average step num : 50.642857142857146
+[08-14 00:32:44] New Score: -156, Best Score: 97, Average Score: -139.9298245614035
+ step num : 25 , max step num : 118, average step num : 50.19298245614035
+[08-14 00:32:49] New Score: -77, Best Score: 97, Average Score: -138.8448275862069
+ step num : 34 , max step num : 118, average step num : 49.91379310344828
+[08-14 00:32:54] New Score: -102, Best Score: 97, Average Score: -138.22033898305085
+ step num : 39 , max step num : 118, average step num : 49.728813559322035
+[08-14 00:33:00] New Score: -31, Best Score: 97, Average Score: -136.43333333333334
+ step num : 40 , max step num : 118, average step num : 49.56666666666667
+[08-14 00:33:05] New Score: 12, Best Score: 97, Average Score: -134.0
+ step num : 43 , max step num : 118, average step num : 49.459016393442624
+[08-14 00:33:10] New Score: -35, Best Score: 97, Average Score: -132.40322580645162
+ step num : 36 , max step num : 118, average step num : 49.24193548387097
+[08-14 00:33:18] New Score: -131, Best Score: 97, Average Score: -132.38095238095238
+ step num : 60 , max step num : 118, average step num : 49.41269841269841
+[08-14 00:33:23] New Score: -58, Best Score: 97, Average Score: -131.21875
+ step num : 43 , max step num : 118, average step num : 49.3125
+[08-14 00:33:35] New Score: -46, Best Score: 97, Average Score: -129.90769230769232
+ step num : 105 , max step num : 118, average step num : 50.16923076923077
+[08-14 00:33:41] New Score: -83, Best Score: 97, Average Score: -129.1969696969697
+ step num : 48 , max step num : 118, average step num : 50.13636363636363
+[08-14 00:33:47] New Score: -29, Best Score: 97, Average Score: -127.70149253731343
+ step num : 52 , max step num : 118, average step num : 50.16417910447761
+[08-14 00:33:52] New Score: 33, Best Score: 97, Average Score: -125.33823529411765
+ step num : 34 , max step num : 118, average step num : 49.9264705882353
+[08-14 00:34:02] New Score: -4, Best Score: 97, Average Score: -123.57971014492753
+ step num : 87 , max step num : 118, average step num : 50.46376811594203
+[08-14 00:34:11] New Score: 96, Best Score: 97, Average Score: -120.44285714285714
+ step num : 67 , max step num : 118, average step num : 50.7
+[08-14 00:34:18] New Score: -153, Best Score: 97, Average Score: -120.90140845070422
+ step num : 58 , max step num : 118, average step num : 50.80281690140845
+[08-14 00:34:29] New Score: 29, Best Score: 97, Average Score: -118.81944444444444
+ step num : 100 , max step num : 118, average step num : 51.486111111111114
+[08-14 00:34:35] New Score: -57, Best Score: 97, Average Score: -117.97260273972603
+ step num : 44 , max step num : 118, average step num : 51.38356164383562
+[08-14 00:34:40] New Score: -102, Best Score: 97, Average Score: -117.75675675675676
+ step num : 39 , max step num : 118, average step num : 51.21621621621622
+[08-14 00:34:47] New Score: 12, Best Score: 97, Average Score: -116.02666666666667
+ step num : 53 , max step num : 118, average step num : 51.24
+[08-14 00:34:53] New Score: -121, Best Score: 97, Average Score: -116.09210526315789
+ step num : 50 , max step num : 118, average step num : 51.223684210526315
+[08-14 00:35:01] New Score: -33, Best Score: 97, Average Score: -115.01298701298701
+ step num : 68 , max step num : 118, average step num : 51.44155844155844
+[08-14 00:35:07] New Score: -149, Best Score: 97, Average Score: -115.44871794871794
+ step num : 42 , max step num : 118, average step num : 51.32051282051282
+[08-14 00:35:13] New Score: -84, Best Score: 97, Average Score: -115.0506329113924
+ step num : 47 , max step num : 118, average step num : 51.265822784810126
+[08-14 00:35:20] New Score: -112, Best Score: 97, Average Score: -115.0125
+ step num : 59 , max step num : 118, average step num : 51.3625
+[08-14 00:35:24] New Score: -172, Best Score: 97, Average Score: -115.71604938271605
+ step num : 29 , max step num : 118, average step num : 51.08641975308642
+[08-14 00:35:29] New Score: 47, Best Score: 97, Average Score: -113.73170731707317
+ step num : 28 , max step num : 118, average step num : 50.80487804878049
+[08-14 00:35:34] New Score: 8, Best Score: 97, Average Score: -112.26506024096386
+ step num : 39 , max step num : 118, average step num : 50.66265060240964
+[08-14 00:35:39] New Score: -199, Best Score: 97, Average Score: -113.29761904761905
+ step num : 32 , max step num : 118, average step num : 50.44047619047619
+[08-14 00:35:46] New Score: 17, Best Score: 97, Average Score: -111.76470588235294
+ step num : 58 , max step num : 118, average step num : 50.529411764705884
+[08-14 00:35:53] New Score: 57, Best Score: 97, Average Score: -109.80232558139535
+ step num : 58 , max step num : 118, average step num : 50.616279069767444
+[08-14 00:36:00] New Score: -179, Best Score: 97, Average Score: -110.59770114942529
+ step num : 52 , max step num : 118, average step num : 50.632183908045974
+[08-14 00:36:08] New Score: 132, Best Score: 132, Average Score: -107.8409090909091
+ step num : 63 , max step num : 118, average step num : 50.77272727272727
+[08-14 00:36:14] New Score: -38, Best Score: 132, Average Score: -107.0561797752809
+ step num : 43 , max step num : 118, average step num : 50.68539325842696
+[08-14 00:36:19] New Score: -140, Best Score: 132, Average Score: -107.42222222222222
+ step num : 41 , max step num : 118, average step num : 50.577777777777776
+[08-14 00:36:23] New Score: -200, Best Score: 132, Average Score: -108.43956043956044
+ step num : 21 , max step num : 118, average step num : 50.252747252747255
+[08-14 00:36:30] New Score: -104, Best Score: 132, Average Score: -108.3913043478261
+ step num : 57 , max step num : 118, average step num : 50.32608695652174
+[08-14 00:36:36] New Score: 71, Best Score: 132, Average Score: -106.46236559139786
+ step num : 52 , max step num : 118, average step num : 50.344086021505376
+[08-14 00:36:50] New Score: -46, Best Score: 132, Average Score: -105.81914893617021
+ step num : 115 , max step num : 118, average step num : 51.03191489361702
+[08-14 00:36:55] New Score: -1, Best Score: 132, Average Score: -104.71578947368421
+ step num : 40 , max step num : 118, average step num : 50.915789473684214
+[08-14 00:37:01] New Score: -47, Best Score: 132, Average Score: -104.11458333333333
+ step num : 44 , max step num : 118, average step num : 50.84375
+[08-14 00:37:06] New Score: -173, Best Score: 132, Average Score: -104.82474226804123
+ step num : 38 , max step num : 118, average step num : 50.71134020618557
+[08-14 00:37:13] New Score: -139, Best Score: 132, Average Score: -105.1734693877551
+ step num : 52 , max step num : 118, average step num : 50.724489795918366
+[08-14 00:37:18] New Score: 58, Best Score: 132, Average Score: -103.52525252525253
+ step num : 29 , max step num : 118, average step num : 50.505050505050505
+[08-14 00:37:24] New Score: -139, Best Score: 132, Average Score: -103.88
+ step num : 42 , max step num : 118, average step num : 50.42
+[08-14 00:37:29] New Score: -126, Best Score: 132, Average Score: -104.0990099009901
+ step num : 35 , max step num : 118, average step num : 50.26732673267327
+[08-14 00:37:34] New Score: -10, Best Score: 132, Average Score: -103.17647058823529
+ step num : 41 , max step num : 118, average step num : 50.1764705882353
+[08-14 00:37:39] New Score: -99, Best Score: 132, Average Score: -103.13592233009709
+ step num : 32 , max step num : 118, average step num : 50.0
+[08-14 00:37:49] New Score: 157, Best Score: 157, Average Score: -100.63461538461539
+ step num : 78 , max step num : 118, average step num : 50.26923076923077
+[08-14 00:37:56] New Score: 3, Best Score: 157, Average Score: -99.64761904761905
+ step num : 54 , max step num : 118, average step num : 50.304761904761904
+[08-14 00:38:08] New Score: 207, Best Score: 207, Average Score: -96.75471698113208
+ step num : 108 , max step num : 118, average step num : 50.84905660377358
+[08-14 00:38:13] New Score: -10, Best Score: 207, Average Score: -95.94392523364486
+ step num : 41 , max step num : 118, average step num : 50.757009345794394
+[08-14 00:38:22] New Score: -195, Best Score: 207, Average Score: -96.86111111111111
+ step num : 76 , max step num : 118, average step num : 50.99074074074074
+[08-14 00:38:29] New Score: 36, Best Score: 207, Average Score: -95.64220183486239
+ step num : 47 , max step num : 118, average step num : 50.95412844036697
+[08-14 00:38:33] New Score: -176, Best Score: 207, Average Score: -96.37272727272727
+ step num : 25 , max step num : 118, average step num : 50.71818181818182
+[08-14 00:38:38] New Score: 64, Best Score: 207, Average Score: -94.92792792792793
+ step num : 35 , max step num : 118, average step num : 50.57657657657658
+[08-14 00:38:45] New Score: -175, Best Score: 207, Average Score: -95.64285714285714
+ step num : 56 , max step num : 118, average step num : 50.625
+[08-14 00:38:51] New Score: 3, Best Score: 207, Average Score: -94.76991150442478
+ step num : 44 , max step num : 118, average step num : 50.56637168141593
+[08-14 00:38:55] New Score: 74, Best Score: 207, Average Score: -93.28947368421052
+ step num : 25 , max step num : 118, average step num : 50.3421052631579
+[08-14 00:39:00] New Score: -155, Best Score: 207, Average Score: -93.82608695652173
+ step num : 36 , max step num : 118, average step num : 50.21739130434783
+[08-14 00:39:07] New Score: 49, Best Score: 207, Average Score: -92.59482758620689
+ step num : 50 , max step num : 118, average step num : 50.21551724137931
+[08-14 00:39:13] New Score: 38, Best Score: 207, Average Score: -91.47863247863248
+ step num : 49 , max step num : 118, average step num : 50.205128205128204
+
+
+[08-14 00:39:23] New Score: -238, Best Score: -238, Average Score: -238.0
+ step num : 23 , max step num : 23, average step num : 23.0
+[08-14 00:39:28] New Score: -178, Best Score: -178, Average Score: -208.0
+ step num : 63 , max step num : 63, average step num : 43.0
+[08-14 00:39:34] New Score: -184, Best Score: -178, Average Score: -200.0
+ step num : 37 , max step num : 63, average step num : 41.0
+[08-14 00:39:37] New Score: -220, Best Score: -178, Average Score: -205.0
+ step num : 21 , max step num : 63, average step num : 36.0
+[08-14 00:39:45] New Score: -114, Best Score: -114, Average Score: -186.8
+ step num : 67 , max step num : 67, average step num : 42.2
+[08-14 00:39:51] New Score: -237, Best Score: -114, Average Score: -195.16666666666666
+ step num : 54 , max step num : 67, average step num : 44.166666666666664
+[08-14 00:39:56] New Score: -268, Best Score: -114, Average Score: -205.57142857142858
+ step num : 33 , max step num : 67, average step num : 42.57142857142857
+[08-14 00:40:00] New Score: -275, Best Score: -114, Average Score: -214.25
+ step num : 36 , max step num : 67, average step num : 41.75
+[08-14 00:40:05] New Score: -199, Best Score: -114, Average Score: -212.55555555555554
+ step num : 32 , max step num : 67, average step num : 40.666666666666664
+[08-14 00:40:14] New Score: -85, Best Score: -85, Average Score: -199.8
+ step num : 86 , max step num : 86, average step num : 45.2
+[08-14 00:40:22] New Score: -147, Best Score: -85, Average Score: -195.0
+ step num : 64 , max step num : 86, average step num : 46.90909090909091
+[08-14 00:40:26] New Score: -208, Best Score: -85, Average Score: -196.08333333333334
+ step num : 33 , max step num : 86, average step num : 45.75
+[08-14 00:40:31] New Score: -168, Best Score: -85, Average Score: -193.92307692307693
+ step num : 33 , max step num : 86, average step num : 44.76923076923077
+[08-14 00:40:35] New Score: -181, Best Score: -85, Average Score: -193.0
+ step num : 30 , max step num : 86, average step num : 43.714285714285715
+[08-14 00:40:43] New Score: -383, Best Score: -85, Average Score: -205.66666666666666
+ step num : 68 , max step num : 86, average step num : 45.333333333333336
+[08-14 00:40:50] New Score: -256, Best Score: -85, Average Score: -208.8125
+ step num : 65 , max step num : 86, average step num : 46.5625
+[08-14 00:40:56] New Score: -174, Best Score: -85, Average Score: -206.76470588235293
+ step num : 47 , max step num : 86, average step num : 46.588235294117645
+[08-14 00:41:11] New Score: -760, Best Score: -85, Average Score: -237.5
+ step num : 141 , max step num : 141, average step num : 51.833333333333336
+[08-14 00:41:15] New Score: -217, Best Score: -85, Average Score: -236.42105263157896
+ step num : 34 , max step num : 141, average step num : 50.89473684210526
+[08-14 00:41:22] New Score: -173, Best Score: -85, Average Score: -233.25
+ step num : 58 , max step num : 141, average step num : 51.25
+[08-14 00:41:27] New Score: -266, Best Score: -85, Average Score: -234.8095238095238
+ step num : 35 , max step num : 141, average step num : 50.476190476190474
+[08-14 00:41:32] New Score: -182, Best Score: -85, Average Score: -232.4090909090909
+ step num : 39 , max step num : 141, average step num : 49.95454545454545
+[08-14 00:41:40] New Score: -136, Best Score: -85, Average Score: -228.2173913043478
+ step num : 65 , max step num : 141, average step num : 50.608695652173914
+[08-14 00:41:43] New Score: -236, Best Score: -85, Average Score: -228.54166666666666
+ step num : 25 , max step num : 141, average step num : 49.541666666666664
+[08-14 00:41:48] New Score: -179, Best Score: -85, Average Score: -226.56
+ step num : 32 , max step num : 141, average step num : 48.84
+[08-14 00:41:52] New Score: -157, Best Score: -85, Average Score: -223.8846153846154
+ step num : 34 , max step num : 141, average step num : 48.26923076923077
+[08-14 00:42:02] New Score: -205, Best Score: -85, Average Score: -223.1851851851852
+ step num : 86 , max step num : 141, average step num : 49.666666666666664
+[08-14 00:42:07] New Score: -42, Best Score: -42, Average Score: -216.71428571428572
+ step num : 39 , max step num : 141, average step num : 49.285714285714285
+[08-14 00:42:13] New Score: -192, Best Score: -42, Average Score: -215.86206896551724
+ step num : 49 , max step num : 141, average step num : 49.275862068965516
+[08-14 00:42:17] New Score: -176, Best Score: -42, Average Score: -214.53333333333333
+ step num : 25 , max step num : 141, average step num : 48.46666666666667
+[08-14 00:42:26] New Score: 27, Best Score: 27, Average Score: -206.74193548387098
+ step num : 78 , max step num : 141, average step num : 49.41935483870968
+[08-14 00:42:32] New Score: -70, Best Score: 27, Average Score: -202.46875
+ step num : 51 , max step num : 141, average step num : 49.46875
+[08-14 00:42:41] New Score: -259, Best Score: 27, Average Score: -204.1818181818182
+ step num : 72 , max step num : 141, average step num : 50.15151515151515
+[08-14 00:43:04] New Score: -1844, Best Score: 27, Average Score: -252.41176470588235
+ step num : 227 , max step num : 227, average step num : 55.35294117647059
+[08-14 00:43:08] New Score: -203, Best Score: 27, Average Score: -251.0
+ step num : 28 , max step num : 227, average step num : 54.57142857142857
+[08-14 00:43:12] New Score: -97, Best Score: 27, Average Score: -246.72222222222223
+ step num : 34 , max step num : 227, average step num : 54.0
+[08-14 00:43:18] New Score: -240, Best Score: 27, Average Score: -246.54054054054055
+ step num : 41 , max step num : 227, average step num : 53.648648648648646
+[08-14 00:43:25] New Score: -281, Best Score: 27, Average Score: -247.44736842105263
+ step num : 60 , max step num : 227, average step num : 53.81578947368421
+[08-14 00:43:30] New Score: -106, Best Score: 27, Average Score: -243.82051282051282
+ step num : 35 , max step num : 227, average step num : 53.333333333333336
+[08-14 00:43:37] New Score: -386, Best Score: 27, Average Score: -247.375
+ step num : 55 , max step num : 227, average step num : 53.375
+[08-14 00:43:50] New Score: -35, Best Score: 27, Average Score: -242.1951219512195
+ step num : 126 , max step num : 227, average step num : 55.146341463414636
+[08-14 00:43:57] New Score: 47, Best Score: 47, Average Score: -235.3095238095238
+ step num : 58 , max step num : 227, average step num : 55.214285714285715
+[08-14 00:44:02] New Score: -140, Best Score: 47, Average Score: -233.09302325581396
+ step num : 41 , max step num : 227, average step num : 54.883720930232556
+[08-14 00:44:08] New Score: -189, Best Score: 47, Average Score: -232.0909090909091
+ step num : 42 , max step num : 227, average step num : 54.59090909090909
+[08-14 00:44:13] New Score: -253, Best Score: 47, Average Score: -232.55555555555554
+ step num : 38 , max step num : 227, average step num : 54.22222222222222
+[08-14 00:44:22] New Score: -166, Best Score: 47, Average Score: -231.1086956521739
+ step num : 75 , max step num : 227, average step num : 54.67391304347826
+[08-14 00:44:27] New Score: -166, Best Score: 47, Average Score: -229.72340425531914
+ step num : 35 , max step num : 227, average step num : 54.255319148936174
+[08-14 00:44:33] New Score: -96, Best Score: 47, Average Score: -226.9375
+ step num : 45 , max step num : 227, average step num : 54.0625
+[08-14 00:44:38] New Score: -100, Best Score: 47, Average Score: -224.3469387755102
+ step num : 41 , max step num : 227, average step num : 53.795918367346935
+[08-14 00:44:44] New Score: -59, Best Score: 47, Average Score: -221.04
+ step num : 52 , max step num : 227, average step num : 53.76
+[08-14 00:44:51] New Score: -93, Best Score: 47, Average Score: -218.52941176470588
+ step num : 58 , max step num : 227, average step num : 53.84313725490196
+[08-14 00:44:59] New Score: -226, Best Score: 47, Average Score: -218.67307692307693
+ step num : 55 , max step num : 227, average step num : 53.86538461538461
+[08-14 00:45:11] New Score: -386, Best Score: 47, Average Score: -221.83018867924528
+ step num : 75 , max step num : 227, average step num : 54.264150943396224
+[08-14 00:45:17] New Score: -146, Best Score: 47, Average Score: -220.42592592592592
+ step num : 35 , max step num : 227, average step num : 53.907407407407405
+[08-14 00:45:22] New Score: -243, Best Score: 47, Average Score: -220.83636363636364
+ step num : 28 , max step num : 227, average step num : 53.43636363636364
+[08-14 00:45:41] New Score: -1318, Best Score: 47, Average Score: -240.42857142857142
+ step num : 123 , max step num : 227, average step num : 54.67857142857143
+[08-14 00:45:50] New Score: -37, Best Score: 47, Average Score: -236.859649122807
+ step num : 54 , max step num : 227, average step num : 54.666666666666664
+[08-14 00:45:56] New Score: -133, Best Score: 47, Average Score: -235.06896551724137
+ step num : 38 , max step num : 227, average step num : 54.37931034482759
+[08-14 00:46:05] New Score: -99, Best Score: 47, Average Score: -232.76271186440678
+ step num : 52 , max step num : 227, average step num : 54.33898305084746
+[08-14 00:46:15] New Score: -545, Best Score: 47, Average Score: -237.96666666666667
+ step num : 66 , max step num : 227, average step num : 54.53333333333333
+[08-14 00:46:24] New Score: -128, Best Score: 47, Average Score: -236.1639344262295
+ step num : 53 , max step num : 227, average step num : 54.50819672131148
+[08-14 00:46:31] New Score: -84, Best Score: 47, Average Score: -233.70967741935485
+ step num : 37 , max step num : 227, average step num : 54.225806451612904
+[08-14 00:46:37] New Score: -153, Best Score: 47, Average Score: -232.42857142857142
+ step num : 38 , max step num : 227, average step num : 53.96825396825397
+[08-14 00:46:47] New Score: -335, Best Score: 47, Average Score: -234.03125
+ step num : 56 , max step num : 227, average step num : 54.0
+[08-14 00:46:54] New Score: -320, Best Score: 47, Average Score: -235.35384615384615
+ step num : 41 , max step num : 227, average step num : 53.8
+[08-14 00:47:03] New Score: -53, Best Score: 47, Average Score: -232.5909090909091
+ step num : 58 , max step num : 227, average step num : 53.86363636363637
+[08-14 00:47:10] New Score: -89, Best Score: 47, Average Score: -230.44776119402985
+ step num : 42 , max step num : 227, average step num : 53.6865671641791
+[08-14 00:47:20] New Score: -76, Best Score: 47, Average Score: -228.1764705882353
+ step num : 55 , max step num : 227, average step num : 53.705882352941174
+[08-14 00:47:28] New Score: -531, Best Score: 47, Average Score: -232.56521739130434
+ step num : 50 , max step num : 227, average step num : 53.65217391304348
+[08-14 00:47:37] New Score: -127, Best Score: 47, Average Score: -231.05714285714285
+ step num : 54 , max step num : 227, average step num : 53.65714285714286
+[08-14 00:47:42] New Score: -141, Best Score: 47, Average Score: -229.7887323943662
+ step num : 30 , max step num : 227, average step num : 53.32394366197183
+[08-14 00:47:52] New Score: -447, Best Score: 47, Average Score: -232.80555555555554
+ step num : 54 , max step num : 227, average step num : 53.333333333333336
+[08-14 00:47:59] New Score: -98, Best Score: 47, Average Score: -230.95890410958904
+ step num : 43 , max step num : 227, average step num : 53.19178082191781
+[08-14 00:48:07] New Score: -130, Best Score: 47, Average Score: -229.59459459459458
+ step num : 51 , max step num : 227, average step num : 53.16216216216216
+[08-14 00:48:15] New Score: -205, Best Score: 47, Average Score: -229.26666666666668
+ step num : 46 , max step num : 227, average step num : 53.06666666666667
+[08-14 00:48:22] New Score: -242, Best Score: 47, Average Score: -229.43421052631578
+ step num : 39 , max step num : 227, average step num : 52.88157894736842
+[08-14 00:48:31] New Score: -90, Best Score: 47, Average Score: -227.62337662337663
+ step num : 51 , max step num : 227, average step num : 52.857142857142854
+[08-14 00:48:35] New Score: -240, Best Score: 47, Average Score: -227.78205128205127
+ step num : 21 , max step num : 227, average step num : 52.44871794871795
+[08-14 00:48:43] New Score: -456, Best Score: 47, Average Score: -230.67088607594937
+ step num : 45 , max step num : 227, average step num : 52.35443037974684
+[08-14 00:48:49] New Score: -157, Best Score: 47, Average Score: -229.75
+ step num : 34 , max step num : 227, average step num : 52.125
+[08-14 00:48:57] New Score: -58, Best Score: 47, Average Score: -227.62962962962962
+ step num : 43 , max step num : 227, average step num : 52.01234567901235
+[08-14 00:49:03] New Score: -113, Best Score: 47, Average Score: -226.23170731707316
+ step num : 38 , max step num : 227, average step num : 51.84146341463415
+[08-14 00:49:12] New Score: -310, Best Score: 47, Average Score: -227.24096385542168
+ step num : 51 , max step num : 227, average step num : 51.83132530120482
+[08-14 00:49:18] New Score: -199, Best Score: 47, Average Score: -226.9047619047619
+ step num : 32 , max step num : 227, average step num : 51.595238095238095
+[08-14 00:49:24] New Score: -178, Best Score: 47, Average Score: -226.3294117647059
+ step num : 33 , max step num : 227, average step num : 51.37647058823529
+[08-14 00:49:37] New Score: 13, Best Score: 47, Average Score: -223.54651162790697
+ step num : 84 , max step num : 227, average step num : 51.75581395348837

@@ -39,7 +39,9 @@ class Ball:
 
     def CheckCollisionBall(self, ball):
         distance = math.sqrt((self.x - ball.x) ** 2 + (self.y - ball.y) ** 2)
-        return distance < self.r + ball.r
+        if distance < self.r + ball.r:
+            return True
+        return False
 
     def SetSpeed(self, speed_x, speed_y):
         self.speed_x = speed_x
@@ -52,8 +54,9 @@ class Ball:
 class MovingBallsEnv:
     def __init__(self, window):
         self.ball_count = 5
-        self.state_size = 4 + self.ball_count * 4
-        self.action_size = 4
+        self.state_size = 4 + self.ball_count * 4        # 인공 신경망 입력 : player의 중심좌표와 방향(x,y,speed_x,speed_y) + 공 개수 * 각 공의 중심좌표와 방향 (x,y,speed_x,speed_y)
+        self.action_size = 4                             # 행동 공간: 동, 서, 남, 북
+
         self.window = window
         self.canvas = tk.Canvas(self.window, width=600, height=400, background="white")
         self.canvas.pack(expand=1, fill=tk.BOTH)
@@ -61,45 +64,23 @@ class MovingBallsEnv:
 
     def Reset(self):
         self.Clear()
-        # player를 초기 위치에 고정하고 속도 0으로 초기화
+
         self.player = Ball(self.canvas, "green", 400, 200, 25, 0, 0)
         self.balls = []
         for i in range(self.ball_count):
-            self.balls.append(Ball(self.canvas, "red", 100, 100, 25, random.randint(1, 10), random.randint(1, 10)))
+            self.balls.append(Ball(self.canvas, "red", 100, 100, 25,
+                                   random.randint(1, 10), random.randint(1, 10)))
         return self.MakeState()
-
-    def Clear(self):
-        if self.player:
-            self.player.Delete()
-            for ball in self.balls:
-                ball.Delete()
-
-    def MakeState(self):
-        state = [self.player.x, self.player.y, self.player.speed_x, self.player.speed_y]
-        for ball in self.balls:
-            state.extend([ball.x, ball.y, ball.speed_x, ball.speed_y])
-        return np.array(state)
-
-    def Step(self, action):
-        if action == 0:  # 오른쪽으로 이동
-            self.player.SetSpeed(10, 0)
-        elif action == 1:  # 왼쪽으로 이동
-            self.player.SetSpeed(-10, 0)
-        elif action == 2:  # 아래로 이동
-            self.player.SetSpeed(0, 10)
-        elif action == 3:  # 위로 이동
-            self.player.SetSpeed(0, -10)
-
-        return self.Move()
 
     # 보상 구조 수정
     def Move(self):
         done = False
         reward = 1
+
         previous_distance_sum = sum(
             [math.sqrt((self.player.x - ball.x) ** 2 + (self.player.y - ball.y) ** 2) for ball in self.balls])
 
-        self.player.Move()  # player 이동
+        self.player.Move()
         if self.player.CheckCollisionWall():
             done = True
             reward = -100  # 벽과 충돌하면 큰 페널티
@@ -125,15 +106,40 @@ class MovingBallsEnv:
 
         return self.MakeState(), reward, done
 
+
+    def Clear(self):
+        if self.player:
+            self.player.Delete()
+            for ball in self.balls:
+                ball.Delete()
+
+    def MakeState(self):
+        state = [self.player.x, self.player.y, self.player.speed_x, self.player.speed_y]
+        for ball in self.balls:
+            state.extend([ball.x, ball.y, ball.speed_x, ball.speed_y])
+        return np.array(state)
+
+    def Step(self, action):
+        if action == 0:  # 동
+            self.player.SetSpeed(10, 0)
+        elif action == 1:  # 서
+            self.player.SetSpeed(-10, 0)
+        elif action == 2:  # 남
+            self.player.SetSpeed(0, 10)
+        elif action == 3:  # 북
+            self.player.SetSpeed(0, -10)
+
+        return self.Move()
+
 class A2CAgent:
     def __init__(self, state_size, action_size):
         self.state_size = state_size
         self.action_size = action_size
         self.gamma = 0.95
+        self.epsilon = 0.1  # 탐험 확률 설정
         self.learning_rate = 0.001
         self.actor, self.critic = self._build_model()
         self.scores = []
-        self.epsilon = 0.1  # 탐험 확률 설정
 
     def _build_model(self):
         # 공통 입력
@@ -169,9 +175,9 @@ class A2CAgent:
 
         if done:
             advantage = reward - value
-            target = np.array([[reward]])  # 스칼라 값을 배열로 변환
+            target = np.array([[reward]])  # Critic을 위한 target
         else:
-            advantage = reward + self.gamma * next_value - value
+            advantage = reward + self.gamma * next_value - value # Critic의 예측
             target = reward + self.gamma * next_value
 
         actions_onehot = np.zeros([1, self.action_size])
@@ -186,14 +192,8 @@ class A2CAgent:
         log_message = f"[{current_time}] New Score: {score}, Best Score: {max(self.scores)}, Average Score: {np.mean(self.scores)}\n"
 
         # 파일에 로그 메시지 저장
-        with open("training_log.txt", "a") as log_file:
+        with open("A2C_Training_Log.txt", "a") as log_file:
             log_file.write(log_message)
-
-
-# 환경 만들기
-window = tk.Tk()
-env = MovingBallsEnv(window)
-agent = A2CAgent(env.state_size, env.action_size)
 
 def main():
     global env, agent
@@ -220,6 +220,12 @@ def main():
         window.after(50, step)
 
     step()
+
+
+# 환경 만들기
+window = tk.Tk()
+env = MovingBallsEnv(window)
+agent = A2CAgent(env.state_size, env.action_size)
 
 window.after(1000, main)
 window.mainloop()

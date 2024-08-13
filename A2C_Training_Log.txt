@@ -1,322 +1,292 @@
-[08-14 00:00:53] New Score: -77, Best Score: -77, Average Score: -77.0
-[08-14 00:00:57] New Score: -86, Best Score: -77, Average Score: -81.5
-[08-14 00:01:00] New Score: -87, Best Score: -77, Average Score: -83.33333333333333
-[08-14 00:01:03] New Score: -87, Best Score: -77, Average Score: -84.25
-[08-14 00:01:05] New Score: -88, Best Score: -77, Average Score: -85.0
-[08-14 00:01:10] New Score: -68, Best Score: -68, Average Score: -82.16666666666667
-[08-14 00:01:16] New Score: 56, Best Score: 56, Average Score: -62.42857142857143
-[08-14 00:01:21] New Score: -6, Best Score: 56, Average Score: -55.375
-[08-14 00:01:26] New Score: -8, Best Score: 56, Average Score: -50.111111111111114
-[08-14 00:01:30] New Score: -23, Best Score: 56, Average Score: -47.4
-[08-14 00:01:34] New Score: -12, Best Score: 56, Average Score: -44.18181818181818
-[08-14 00:01:38] New Score: -22, Best Score: 56, Average Score: -42.333333333333336
-[08-14 00:01:43] New Score: -41, Best Score: 56, Average Score: -42.23076923076923
-[08-14 00:01:46] New Score: -23, Best Score: 56, Average Score: -40.857142857142854
-[08-14 00:01:51] New Score: -11, Best Score: 56, Average Score: -38.86666666666667
-[08-14 00:01:55] New Score: -11, Best Score: 56, Average Score: -37.125
-[08-14 00:02:01] New Score: 108, Best Score: 108, Average Score: -28.58823529411765
-[08-14 00:02:06] New Score: 101, Best Score: 108, Average Score: -21.38888888888889
-[08-14 00:02:10] New Score: 99, Best Score: 108, Average Score: -15.052631578947368
-[08-14 00:02:15] New Score: 100, Best Score: 108, Average Score: -9.3
-[08-14 00:02:19] New Score: 98, Best Score: 108, Average Score: -4.190476190476191
-[08-14 00:02:24] New Score: 110, Best Score: 110, Average Score: 1.0
-[08-14 00:02:29] New Score: 113, Best Score: 113, Average Score: 5.869565217391305
-[08-14 00:02:34] New Score: 122, Best Score: 122, Average Score: 10.708333333333334
-[08-14 00:02:38] New Score: 98, Best Score: 122, Average Score: 14.2
-[08-14 00:02:42] New Score: 99, Best Score: 122, Average Score: 17.46153846153846
-[08-14 00:02:46] New Score: 98, Best Score: 122, Average Score: 20.444444444444443
-[08-14 00:02:51] New Score: 112, Best Score: 122, Average Score: 23.714285714285715
-[08-14 00:02:56] New Score: 100, Best Score: 122, Average Score: 26.344827586206897
-[08-14 00:03:00] New Score: 112, Best Score: 122, Average Score: 29.2
-[08-14 00:03:05] New Score: 110, Best Score: 122, Average Score: 31.806451612903224
-[08-14 00:03:09] New Score: 99, Best Score: 122, Average Score: 33.90625
-[08-14 00:03:14] New Score: 82, Best Score: 122, Average Score: 35.36363636363637
-[08-14 00:03:19] New Score: 112, Best Score: 122, Average Score: 37.61764705882353
-[08-14 00:03:24] New Score: 99, Best Score: 122, Average Score: 39.371428571428574
-[08-14 00:03:28] New Score: 99, Best Score: 122, Average Score: 41.02777777777778
-[08-14 00:03:34] New Score: 135, Best Score: 135, Average Score: 43.567567567567565
-[08-14 00:03:39] New Score: 122, Best Score: 135, Average Score: 45.63157894736842
-[08-14 00:03:44] New Score: 123, Best Score: 135, Average Score: 47.61538461538461
-[08-14 00:03:48] New Score: 98, Best Score: 135, Average Score: 48.875
-[08-14 00:03:52] New Score: 99, Best Score: 135, Average Score: 50.09756097560975
-[08-14 00:03:57] New Score: 123, Best Score: 135, Average Score: 51.833333333333336
-[08-14 00:04:02] New Score: 122, Best Score: 135, Average Score: 53.46511627906977
-[08-14 00:04:07] New Score: 112, Best Score: 135, Average Score: 54.79545454545455
-[08-14 00:04:12] New Score: 111, Best Score: 135, Average Score: 56.044444444444444
-[08-14 00:04:17] New Score: 114, Best Score: 135, Average Score: 57.30434782608695
-[08-14 00:04:21] New Score: 98, Best Score: 135, Average Score: 58.170212765957444
-[08-14 00:04:26] New Score: 123, Best Score: 135, Average Score: 59.520833333333336
-[08-14 00:04:31] New Score: 99, Best Score: 135, Average Score: 60.326530612244895
-[08-14 00:04:35] New Score: 100, Best Score: 135, Average Score: 61.12
-[08-14 00:04:41] New Score: 113, Best Score: 135, Average Score: 62.13725490196079
-[08-14 00:04:45] New Score: 99, Best Score: 135, Average Score: 62.84615384615385
-[08-14 00:04:50] New Score: 111, Best Score: 135, Average Score: 63.75471698113208
-[08-14 00:04:54] New Score: 99, Best Score: 135, Average Score: 64.4074074074074
-[08-14 00:04:59] New Score: 99, Best Score: 135, Average Score: 65.03636363636363
-[08-14 00:05:04] New Score: 124, Best Score: 135, Average Score: 66.08928571428571
-[08-14 00:05:08] New Score: 100, Best Score: 135, Average Score: 66.6842105263158
-[08-14 00:05:14] New Score: 113, Best Score: 135, Average Score: 67.48275862068965
-[08-14 00:05:19] New Score: 113, Best Score: 135, Average Score: 68.2542372881356
-[08-14 00:05:24] New Score: 110, Best Score: 135, Average Score: 68.95
-[08-14 00:05:29] New Score: 102, Best Score: 135, Average Score: 69.49180327868852
-[08-14 00:05:34] New Score: 99, Best Score: 135, Average Score: 69.96774193548387
-[08-14 00:05:38] New Score: 110, Best Score: 135, Average Score: 70.60317460317461
-[08-14 00:05:43] New Score: 99, Best Score: 135, Average Score: 71.046875
-[08-14 00:05:48] New Score: 99, Best Score: 135, Average Score: 71.47692307692307
-[08-14 00:05:53] New Score: 111, Best Score: 135, Average Score: 72.07575757575758
-[08-14 00:05:58] New Score: 123, Best Score: 135, Average Score: 72.83582089552239
-[08-14 00:06:03] New Score: 134, Best Score: 135, Average Score: 73.73529411764706
-[08-14 00:06:08] New Score: 111, Best Score: 135, Average Score: 74.27536231884058
-[08-14 00:06:13] New Score: 110, Best Score: 135, Average Score: 74.78571428571429
-[08-14 00:06:18] New Score: 112, Best Score: 135, Average Score: 75.30985915492958
-[08-14 00:06:23] New Score: 123, Best Score: 135, Average Score: 75.97222222222223
-[08-14 00:06:27] New Score: 99, Best Score: 135, Average Score: 76.28767123287672
-[08-14 00:06:32] New Score: 101, Best Score: 135, Average Score: 76.62162162162163
-[08-14 00:06:37] New Score: 110, Best Score: 135, Average Score: 77.06666666666666
-[08-14 00:06:41] New Score: 111, Best Score: 135, Average Score: 77.51315789473684
-[08-14 00:06:46] New Score: 98, Best Score: 135, Average Score: 77.77922077922078
-[08-14 00:06:52] New Score: 135, Best Score: 135, Average Score: 78.51282051282051
-[08-14 00:06:56] New Score: 100, Best Score: 135, Average Score: 78.78481012658227
-[08-14 00:07:02] New Score: 113, Best Score: 135, Average Score: 79.2125
-[08-14 00:07:07] New Score: 122, Best Score: 135, Average Score: 79.74074074074075
-[08-14 00:07:12] New Score: 134, Best Score: 135, Average Score: 80.40243902439025
-[08-14 00:07:17] New Score: 98, Best Score: 135, Average Score: 80.6144578313253
-[08-14 00:07:22] New Score: 100, Best Score: 135, Average Score: 80.8452380952381
-[08-14 00:07:26] New Score: 98, Best Score: 135, Average Score: 81.04705882352941
-[08-14 00:07:32] New Score: 123, Best Score: 135, Average Score: 81.53488372093024
-[08-14 00:07:37] New Score: 100, Best Score: 135, Average Score: 81.74712643678161
-[08-14 00:07:41] New Score: 99, Best Score: 135, Average Score: 81.94318181818181
-[08-14 00:07:47] New Score: 135, Best Score: 135, Average Score: 82.53932584269663
-[08-14 00:07:52] New Score: 123, Best Score: 135, Average Score: 82.9888888888889
-[08-14 00:07:58] New Score: 112, Best Score: 135, Average Score: 83.3076923076923
-[08-14 00:08:02] New Score: 99, Best Score: 135, Average Score: 83.47826086956522
-[08-14 00:08:07] New Score: 100, Best Score: 135, Average Score: 83.65591397849462
-[08-14 00:08:11] New Score: 99, Best Score: 135, Average Score: 83.81914893617021
-[08-14 00:08:16] New Score: 122, Best Score: 135, Average Score: 84.22105263157894
-[08-14 00:08:23] New Score: 148, Best Score: 148, Average Score: 84.88541666666667
-[08-14 00:08:27] New Score: 99, Best Score: 148, Average Score: 85.03092783505154
-[08-14 00:08:32] New Score: 99, Best Score: 148, Average Score: 85.1734693877551
-[08-14 00:08:36] New Score: 100, Best Score: 148, Average Score: 85.32323232323232
-[08-14 00:08:42] New Score: 134, Best Score: 148, Average Score: 85.81
-[08-14 00:08:47] New Score: 110, Best Score: 148, Average Score: 86.04950495049505
-[08-14 00:08:51] New Score: 98, Best Score: 148, Average Score: 86.16666666666667
-[08-14 00:08:56] New Score: 101, Best Score: 148, Average Score: 86.31067961165049
-[08-14 00:09:01] New Score: 112, Best Score: 148, Average Score: 86.5576923076923
-[08-14 00:09:05] New Score: 98, Best Score: 148, Average Score: 86.66666666666667
-[08-14 00:09:09] New Score: 98, Best Score: 148, Average Score: 86.77358490566037
-[08-14 00:09:14] New Score: 110, Best Score: 148, Average Score: 86.99065420560747
-[08-14 00:09:19] New Score: 122, Best Score: 148, Average Score: 87.31481481481481
-[08-14 00:09:23] New Score: 98, Best Score: 148, Average Score: 87.41284403669725
-[08-14 00:09:29] New Score: 113, Best Score: 148, Average Score: 87.64545454545454
-[08-14 00:09:33] New Score: 122, Best Score: 148, Average Score: 87.95495495495496
-[08-14 00:09:38] New Score: 98, Best Score: 148, Average Score: 88.04464285714286
-[08-14 00:09:43] New Score: 113, Best Score: 148, Average Score: 88.26548672566372
-[08-14 00:09:47] New Score: 100, Best Score: 148, Average Score: 88.36842105263158
-[08-14 00:09:52] New Score: 110, Best Score: 148, Average Score: 88.55652173913043
-[08-14 00:09:57] New Score: 101, Best Score: 148, Average Score: 88.66379310344827
-[08-14 00:10:01] New Score: 99, Best Score: 148, Average Score: 88.75213675213675
-[08-14 00:10:05] New Score: 99, Best Score: 148, Average Score: 88.83898305084746
-[08-14 00:10:10] New Score: 111, Best Score: 148, Average Score: 89.02521008403362
-[08-14 00:10:14] New Score: 98, Best Score: 148, Average Score: 89.1
-[08-14 00:10:19] New Score: 122, Best Score: 148, Average Score: 89.37190082644628
-[08-14 00:10:24] New Score: 122, Best Score: 148, Average Score: 89.63934426229508
-[08-14 00:10:29] New Score: 113, Best Score: 148, Average Score: 89.82926829268293
-[08-14 00:10:33] New Score: 98, Best Score: 148, Average Score: 89.89516129032258
-[08-14 00:10:38] New Score: 110, Best Score: 148, Average Score: 90.056
-[08-14 00:10:43] New Score: 113, Best Score: 148, Average Score: 90.23809523809524
-[08-14 00:10:49] New Score: 112, Best Score: 148, Average Score: 90.40944881889764
-[08-14 00:10:53] New Score: 99, Best Score: 148, Average Score: 90.4765625
-[08-14 00:10:58] New Score: 98, Best Score: 148, Average Score: 90.53488372093024
-[08-14 00:11:02] New Score: 100, Best Score: 148, Average Score: 90.6076923076923
-[08-14 00:11:07] New Score: 98, Best Score: 148, Average Score: 90.66412213740458
-[08-14 00:11:12] New Score: 122, Best Score: 148, Average Score: 90.90151515151516
-[08-14 00:11:17] New Score: 110, Best Score: 148, Average Score: 91.04511278195488
-[08-14 00:11:24] New Score: 135, Best Score: 148, Average Score: 91.3731343283582
-[08-14 00:11:31] New Score: 125, Best Score: 148, Average Score: 91.62222222222222
-[08-14 00:11:36] New Score: 99, Best Score: 148, Average Score: 91.67647058823529
-[08-14 00:11:43] New Score: 148, Best Score: 148, Average Score: 92.08759124087591
-[08-14 00:11:49] New Score: 124, Best Score: 148, Average Score: 92.31884057971014
-[08-14 00:11:54] New Score: 123, Best Score: 148, Average Score: 92.53956834532374
-[08-14 00:11:59] New Score: 100, Best Score: 148, Average Score: 92.59285714285714
-[08-14 00:12:05] New Score: 114, Best Score: 148, Average Score: 92.74468085106383
-[08-14 00:12:10] New Score: 113, Best Score: 148, Average Score: 92.88732394366197
-[08-14 00:12:15] New Score: 110, Best Score: 148, Average Score: 93.00699300699301
-[08-14 00:12:19] New Score: 98, Best Score: 148, Average Score: 93.04166666666667
-[08-14 00:12:24] New Score: 112, Best Score: 148, Average Score: 93.17241379310344
-[08-14 00:12:28] New Score: 98, Best Score: 148, Average Score: 93.20547945205479
-[08-14 00:12:33] New Score: 110, Best Score: 148, Average Score: 93.31972789115646
-[08-14 00:12:38] New Score: 112, Best Score: 148, Average Score: 93.44594594594595
-[08-14 00:12:42] New Score: 98, Best Score: 148, Average Score: 93.47651006711409
-[08-14 00:12:46] New Score: 98, Best Score: 148, Average Score: 93.50666666666666
-[08-14 00:12:51] New Score: 123, Best Score: 148, Average Score: 93.70198675496688
-[08-14 00:12:57] New Score: 99, Best Score: 148, Average Score: 93.73684210526316
-[08-14 00:13:02] New Score: 101, Best Score: 148, Average Score: 93.7843137254902
-[08-14 00:13:07] New Score: 50, Best Score: 148, Average Score: 93.5
-[08-14 00:13:11] New Score: 100, Best Score: 148, Average Score: 93.54193548387097
-[08-14 00:13:16] New Score: 98, Best Score: 148, Average Score: 93.57051282051282
-[08-14 00:13:20] New Score: 101, Best Score: 148, Average Score: 93.61783439490446
-[08-14 00:13:25] New Score: 98, Best Score: 148, Average Score: 93.64556962025317
-[08-14 00:13:30] New Score: 110, Best Score: 148, Average Score: 93.74842767295597
-[08-14 00:13:35] New Score: 100, Best Score: 148, Average Score: 93.7875
-[08-14 00:13:39] New Score: 98, Best Score: 148, Average Score: 93.8136645962733
-[08-14 00:13:43] New Score: 98, Best Score: 148, Average Score: 93.8395061728395
-[08-14 00:13:48] New Score: 110, Best Score: 148, Average Score: 93.93865030674847
-[08-14 00:13:53] New Score: 100, Best Score: 148, Average Score: 93.97560975609755
-[08-14 00:13:59] New Score: 110, Best Score: 148, Average Score: 94.07272727272728
-[08-14 00:14:03] New Score: 98, Best Score: 148, Average Score: 94.09638554216868
-[08-14 00:14:08] New Score: 112, Best Score: 148, Average Score: 94.20359281437126
-[08-14 00:14:14] New Score: 122, Best Score: 148, Average Score: 94.36904761904762
-[08-14 00:14:18] New Score: 110, Best Score: 148, Average Score: 94.46153846153847
-[08-14 00:14:23] New Score: 111, Best Score: 148, Average Score: 94.55882352941177
-[08-14 00:14:28] New Score: 99, Best Score: 148, Average Score: 94.58479532163743
-[08-14 00:14:33] New Score: 111, Best Score: 148, Average Score: 94.68023255813954
-[08-14 00:14:37] New Score: 98, Best Score: 148, Average Score: 94.69942196531792
-[08-14 00:14:41] New Score: 99, Best Score: 148, Average Score: 94.72413793103448
-[08-14 00:14:46] New Score: 110, Best Score: 148, Average Score: 94.81142857142858
-[08-14 00:14:51] New Score: 98, Best Score: 148, Average Score: 94.82954545454545
-[08-14 00:14:55] New Score: 98, Best Score: 148, Average Score: 94.84745762711864
-[08-14 00:15:00] New Score: 100, Best Score: 148, Average Score: 94.87640449438203
-[08-14 00:15:04] New Score: 98, Best Score: 148, Average Score: 94.89385474860335
-[08-14 00:15:09] New Score: 99, Best Score: 148, Average Score: 94.91666666666667
-[08-14 00:15:13] New Score: 98, Best Score: 148, Average Score: 94.93370165745857
-[08-14 00:15:18] New Score: 101, Best Score: 148, Average Score: 94.96703296703296
-[08-14 00:15:22] New Score: 100, Best Score: 148, Average Score: 94.99453551912568
-[08-14 00:15:27] New Score: 122, Best Score: 148, Average Score: 95.1413043478261
-[08-14 00:15:31] New Score: 98, Best Score: 148, Average Score: 95.15675675675676
-[08-14 00:15:36] New Score: 100, Best Score: 148, Average Score: 95.18279569892474
-[08-14 00:15:41] New Score: 113, Best Score: 148, Average Score: 95.27807486631016
-[08-14 00:15:46] New Score: 100, Best Score: 148, Average Score: 95.30319148936171
-[08-14 00:15:51] New Score: 99, Best Score: 148, Average Score: 95.32275132275132
-[08-14 00:15:56] New Score: 110, Best Score: 148, Average Score: 95.4
-[08-14 00:16:01] New Score: 126, Best Score: 148, Average Score: 95.56020942408377
-[08-14 00:16:06] New Score: 98, Best Score: 148, Average Score: 95.57291666666667
-[08-14 00:16:10] New Score: 110, Best Score: 148, Average Score: 95.64766839378238
-[08-14 00:16:16] New Score: 103, Best Score: 148, Average Score: 95.68556701030928
-[08-14 00:16:21] New Score: 100, Best Score: 148, Average Score: 95.70769230769231
-[08-14 00:16:26] New Score: 111, Best Score: 148, Average Score: 95.78571428571429
-[08-14 00:16:33] New Score: 147, Best Score: 148, Average Score: 96.04568527918782
-[08-14 00:16:37] New Score: 98, Best Score: 148, Average Score: 96.05555555555556
-[08-14 00:16:42] New Score: 98, Best Score: 148, Average Score: 96.06532663316582
-[08-14 00:16:47] New Score: 111, Best Score: 148, Average Score: 96.14
-[08-14 00:16:51] New Score: 99, Best Score: 148, Average Score: 96.1542288557214
-[08-14 00:16:58] New Score: 136, Best Score: 148, Average Score: 96.35148514851485
-[08-14 00:17:04] New Score: 102, Best Score: 148, Average Score: 96.37931034482759
-[08-14 00:17:08] New Score: 99, Best Score: 148, Average Score: 96.3921568627451
-[08-14 00:17:12] New Score: 100, Best Score: 148, Average Score: 96.40975609756097
-[08-14 00:17:16] New Score: 99, Best Score: 148, Average Score: 96.42233009708738
-[08-14 00:17:20] New Score: 111, Best Score: 148, Average Score: 96.4927536231884
-[08-14 00:17:24] New Score: 99, Best Score: 148, Average Score: 96.5048076923077
-[08-14 00:17:27] New Score: 99, Best Score: 148, Average Score: 96.51674641148325
-[08-14 00:17:31] New Score: 99, Best Score: 148, Average Score: 96.52857142857142
-[08-14 00:17:35] New Score: 98, Best Score: 148, Average Score: 96.53554502369668
-[08-14 00:17:39] New Score: 99, Best Score: 148, Average Score: 96.54716981132076
-[08-14 00:17:44] New Score: 111, Best Score: 148, Average Score: 96.6150234741784
-[08-14 00:17:49] New Score: 111, Best Score: 148, Average Score: 96.6822429906542
-[08-14 00:17:53] New Score: 98, Best Score: 148, Average Score: 96.68837209302326
-[08-14 00:17:59] New Score: 135, Best Score: 148, Average Score: 96.86574074074075
-[08-14 00:18:04] New Score: 111, Best Score: 148, Average Score: 96.93087557603687
-[08-14 00:18:09] New Score: 101, Best Score: 148, Average Score: 96.94954128440367
-[08-14 00:18:14] New Score: 110, Best Score: 148, Average Score: 97.00913242009132
-[08-14 00:18:18] New Score: 98, Best Score: 148, Average Score: 97.01363636363637
-[08-14 00:18:24] New Score: 100, Best Score: 148, Average Score: 97.02714932126698
-[08-14 00:18:29] New Score: 110, Best Score: 148, Average Score: 97.08558558558559
-[08-14 00:18:34] New Score: 100, Best Score: 148, Average Score: 97.09865470852019
-[08-14 00:18:39] New Score: 98, Best Score: 148, Average Score: 97.10267857142857
-[08-14 00:18:44] New Score: 111, Best Score: 148, Average Score: 97.16444444444444
-[08-14 00:18:49] New Score: 101, Best Score: 148, Average Score: 97.18141592920354
-[08-14 00:18:54] New Score: 123, Best Score: 148, Average Score: 97.29515418502203
-[08-14 00:18:59] New Score: 112, Best Score: 148, Average Score: 97.35964912280701
-[08-14 00:19:04] New Score: 112, Best Score: 148, Average Score: 97.4235807860262
-[08-14 00:19:08] New Score: 99, Best Score: 148, Average Score: 97.4304347826087
-[08-14 00:19:12] New Score: 110, Best Score: 148, Average Score: 97.48484848484848
-[08-14 00:19:17] New Score: 123, Best Score: 148, Average Score: 97.59482758620689
-[08-14 00:19:20] New Score: 98, Best Score: 148, Average Score: 97.59656652360515
-[08-14 00:19:24] New Score: 99, Best Score: 148, Average Score: 97.6025641025641
-[08-14 00:19:28] New Score: 99, Best Score: 148, Average Score: 97.60851063829787
-[08-14 00:19:32] New Score: 110, Best Score: 148, Average Score: 97.66101694915254
-[08-14 00:19:36] New Score: 100, Best Score: 148, Average Score: 97.67088607594937
-[08-14 00:19:41] New Score: 122, Best Score: 148, Average Score: 97.77310924369748
-[08-14 00:19:45] New Score: 99, Best Score: 148, Average Score: 97.77824267782427
-[08-14 00:19:50] New Score: 111, Best Score: 148, Average Score: 97.83333333333333
-[08-14 00:19:55] New Score: 112, Best Score: 148, Average Score: 97.89211618257261
-[08-14 00:19:58] New Score: 98, Best Score: 148, Average Score: 97.89256198347107
-[08-14 00:20:02] New Score: 99, Best Score: 148, Average Score: 97.89711934156378
-[08-14 00:20:07] New Score: 122, Best Score: 148, Average Score: 97.99590163934427
-[08-14 00:20:11] New Score: 113, Best Score: 148, Average Score: 98.05714285714286
-[08-14 00:20:16] New Score: 100, Best Score: 148, Average Score: 98.0650406504065
-[08-14 00:20:21] New Score: 124, Best Score: 148, Average Score: 98.17004048582996
-[08-14 00:20:25] New Score: 99, Best Score: 148, Average Score: 98.17338709677419
-[08-14 00:20:31] New Score: 148, Best Score: 148, Average Score: 98.37349397590361
-[08-14 00:20:35] New Score: 125, Best Score: 148, Average Score: 98.48
-[08-14 00:20:40] New Score: 112, Best Score: 148, Average Score: 98.53386454183267
-[08-14 00:20:44] New Score: 110, Best Score: 148, Average Score: 98.57936507936508
-[08-14 00:20:48] New Score: 112, Best Score: 148, Average Score: 98.63241106719367
-[08-14 00:20:53] New Score: 111, Best Score: 148, Average Score: 98.68110236220473
-[08-14 00:20:58] New Score: 123, Best Score: 148, Average Score: 98.7764705882353
-[08-14 00:21:01] New Score: 98, Best Score: 148, Average Score: 98.7734375
-[08-14 00:21:05] New Score: 98, Best Score: 148, Average Score: 98.7704280155642
-[08-14 00:21:09] New Score: 112, Best Score: 148, Average Score: 98.82170542635659
-[08-14 00:21:14] New Score: 112, Best Score: 148, Average Score: 98.87258687258688
-[08-14 00:21:18] New Score: 99, Best Score: 148, Average Score: 98.87307692307692
-[08-14 00:21:22] New Score: 100, Best Score: 148, Average Score: 98.87739463601532
-[08-14 00:21:26] New Score: 110, Best Score: 148, Average Score: 98.91984732824427
-[08-14 00:21:30] New Score: 98, Best Score: 148, Average Score: 98.91634980988593
-[08-14 00:21:34] New Score: 98, Best Score: 148, Average Score: 98.91287878787878
-[08-14 00:21:38] New Score: 100, Best Score: 148, Average Score: 98.91698113207548
-[08-14 00:21:42] New Score: 100, Best Score: 148, Average Score: 98.92105263157895
-[08-14 00:21:47] New Score: 101, Best Score: 148, Average Score: 98.92883895131087
-[08-14 00:21:51] New Score: 98, Best Score: 148, Average Score: 98.92537313432835
-[08-14 00:21:55] New Score: 100, Best Score: 148, Average Score: 98.92936802973978
-[08-14 00:21:59] New Score: 110, Best Score: 148, Average Score: 98.97037037037038
-[08-14 00:22:04] New Score: 110, Best Score: 148, Average Score: 99.01107011070111
-[08-14 00:22:08] New Score: 99, Best Score: 148, Average Score: 99.01102941176471
-[08-14 00:22:12] New Score: 110, Best Score: 148, Average Score: 99.05128205128206
-[08-14 00:22:17] New Score: 122, Best Score: 148, Average Score: 99.13503649635037
-[08-14 00:22:21] New Score: 99, Best Score: 148, Average Score: 99.13454545454546
-[08-14 00:22:25] New Score: 124, Best Score: 148, Average Score: 99.22463768115942
-[08-14 00:22:31] New Score: 137, Best Score: 148, Average Score: 99.36101083032491
-[08-14 00:22:35] New Score: 98, Best Score: 148, Average Score: 99.35611510791367
-[08-14 00:22:39] New Score: 112, Best Score: 148, Average Score: 99.40143369175627
-[08-14 00:22:43] New Score: 98, Best Score: 148, Average Score: 99.39642857142857
-[08-14 00:22:48] New Score: 100, Best Score: 148, Average Score: 99.39857651245552
-[08-14 00:22:51] New Score: 98, Best Score: 148, Average Score: 99.3936170212766
-[08-14 00:22:57] New Score: 100, Best Score: 148, Average Score: 99.39575971731449
-[08-14 00:23:01] New Score: 110, Best Score: 148, Average Score: 99.4330985915493
-[08-14 00:23:05] New Score: 99, Best Score: 148, Average Score: 99.43157894736842
-[08-14 00:23:09] New Score: 98, Best Score: 148, Average Score: 99.42657342657343
-[08-14 00:23:13] New Score: 111, Best Score: 148, Average Score: 99.46689895470384
-[08-14 00:23:18] New Score: 110, Best Score: 148, Average Score: 99.50347222222223
-[08-14 00:23:24] New Score: 111, Best Score: 148, Average Score: 99.5432525951557
-[08-14 00:23:28] New Score: 100, Best Score: 148, Average Score: 99.54482758620689
-[08-14 00:23:33] New Score: 99, Best Score: 148, Average Score: 99.54295532646049
-[08-14 00:23:37] New Score: 69, Best Score: 148, Average Score: 99.43835616438356
-[08-14 00:23:41] New Score: 98, Best Score: 148, Average Score: 99.4334470989761
-[08-14 00:23:45] New Score: 98, Best Score: 148, Average Score: 99.42857142857143
-[08-14 00:23:50] New Score: 112, Best Score: 148, Average Score: 99.47118644067797
-[08-14 00:23:54] New Score: 100, Best Score: 148, Average Score: 99.47297297297297
-[08-14 00:23:58] New Score: 99, Best Score: 148, Average Score: 99.47138047138047
-[08-14 00:24:03] New Score: 112, Best Score: 148, Average Score: 99.51342281879195
-[08-14 00:24:08] New Score: 123, Best Score: 148, Average Score: 99.59197324414716
-[08-14 00:24:13] New Score: 135, Best Score: 148, Average Score: 99.71
-[08-14 00:24:17] New Score: 88, Best Score: 148, Average Score: 99.67109634551495
-[08-14 00:24:22] New Score: 124, Best Score: 148, Average Score: 99.75165562913908
-[08-14 00:24:27] New Score: 110, Best Score: 148, Average Score: 99.78547854785478
-[08-14 00:24:31] New Score: 99, Best Score: 148, Average Score: 99.78289473684211
-[08-14 00:24:37] New Score: 112, Best Score: 148, Average Score: 99.82295081967213
-[08-14 00:24:41] New Score: 99, Best Score: 148, Average Score: 99.8202614379085
-[08-14 00:24:45] New Score: 99, Best Score: 148, Average Score: 99.81758957654723
-[08-14 00:24:50] New Score: 127, Best Score: 148, Average Score: 99.90584415584415
-[08-14 00:24:54] New Score: 98, Best Score: 148, Average Score: 99.89967637540452
-[08-14 00:24:58] New Score: 98, Best Score: 148, Average Score: 99.89354838709677
-[08-14 00:25:02] New Score: 100, Best Score: 148, Average Score: 99.89389067524115
-[08-14 00:25:05] New Score: 98, Best Score: 148, Average Score: 99.88782051282051
-[08-14 00:25:09] New Score: 99, Best Score: 148, Average Score: 99.8849840255591
-[08-14 00:25:14] New Score: 124, Best Score: 148, Average Score: 99.96178343949045
-[08-14 00:25:18] New Score: 100, Best Score: 148, Average Score: 99.96190476190476
-[08-14 00:25:21] New Score: 98, Best Score: 148, Average Score: 99.95569620253164
-[08-14 00:25:25] New Score: 99, Best Score: 148, Average Score: 99.95268138801262
-[08-14 00:25:29] New Score: 99, Best Score: 148, Average Score: 99.9496855345912
-[08-14 00:25:33] New Score: 99, Best Score: 148, Average Score: 99.94670846394985
-[08-14 00:25:37] New Score: 110, Best Score: 148, Average Score: 99.978125
-[08-14 00:25:41] New Score: 100, Best Score: 148, Average Score: 99.97819314641744
-[08-14 00:25:45] New Score: 99, Best Score: 148, Average Score: 99.9751552795031
+[08-14 01:58:33] New Score: 797, Best Score: 797, Average Score: 797.0
+ step num : 68 , max step num : 68, average step num : 68.0
+[08-14 01:58:42] New Score: 585, Best Score: 797, Average Score: 691.0
+ step num : 46 , max step num : 68, average step num : 57.0
+[08-14 01:58:50] New Score: 388, Best Score: 797, Average Score: 590.0
+ step num : 39 , max step num : 68, average step num : 51.0
+[08-14 01:58:56] New Score: -238, Best Score: 797, Average Score: 383.0
+ step num : 33 , max step num : 68, average step num : 46.5
+[08-14 01:59:01] New Score: 274, Best Score: 797, Average Score: 361.2
+ step num : 25 , max step num : 68, average step num : 42.2
+[08-14 01:59:06] New Score: 501, Best Score: 797, Average Score: 384.5
+ step num : 22 , max step num : 68, average step num : 38.833333333333336
+[08-14 01:59:11] New Score: 423, Best Score: 797, Average Score: 390.0
+ step num : 24 , max step num : 68, average step num : 36.714285714285715
+[08-14 01:59:16] New Score: 56, Best Score: 797, Average Score: 348.25
+ step num : 27 , max step num : 68, average step num : 35.5
+[08-14 01:59:20] New Score: 350, Best Score: 797, Average Score: 348.44444444444446
+ step num : 21 , max step num : 68, average step num : 33.888888888888886
+[08-14 01:59:25] New Score: 534, Best Score: 797, Average Score: 367.0
+ step num : 25 , max step num : 68, average step num : 33.0
+[08-14 01:59:31] New Score: 518, Best Score: 797, Average Score: 380.72727272727275
+ step num : 29 , max step num : 68, average step num : 32.63636363636363
+[08-14 01:59:35] New Score: 459, Best Score: 797, Average Score: 387.25
+ step num : 20 , max step num : 68, average step num : 31.583333333333332
+[08-14 01:59:40] New Score: 525, Best Score: 797, Average Score: 397.84615384615387
+ step num : 26 , max step num : 68, average step num : 31.153846153846153
+[08-14 01:59:45] New Score: 341, Best Score: 797, Average Score: 393.7857142857143
+ step num : 22 , max step num : 68, average step num : 30.5
+[08-14 01:59:49] New Score: 492, Best Score: 797, Average Score: 400.3333333333333
+ step num : 23 , max step num : 68, average step num : 30.0
+[08-14 01:59:54] New Score: 483, Best Score: 797, Average Score: 405.5
+ step num : 24 , max step num : 68, average step num : 29.625
+[08-14 01:59:58] New Score: 468, Best Score: 797, Average Score: 409.1764705882353
+ step num : 19 , max step num : 68, average step num : 29.0
+[08-14 02:00:02] New Score: 468, Best Score: 797, Average Score: 412.44444444444446
+ step num : 19 , max step num : 68, average step num : 28.444444444444443
+[08-14 02:00:06] New Score: 510, Best Score: 797, Average Score: 417.57894736842104
+ step num : 21 , max step num : 68, average step num : 28.05263157894737
+[08-14 02:00:10] New Score: 441, Best Score: 797, Average Score: 418.75
+ step num : 22 , max step num : 68, average step num : 27.75
+[08-14 02:00:14] New Score: 459, Best Score: 797, Average Score: 420.6666666666667
+ step num : 20 , max step num : 68, average step num : 27.38095238095238
+[08-14 02:00:18] New Score: 468, Best Score: 797, Average Score: 422.8181818181818
+ step num : 19 , max step num : 68, average step num : 27.0
+[08-14 02:00:22] New Score: 468, Best Score: 797, Average Score: 424.7826086956522
+ step num : 19 , max step num : 68, average step num : 26.652173913043477
+[08-14 02:00:26] New Score: 468, Best Score: 797, Average Score: 426.5833333333333
+ step num : 19 , max step num : 68, average step num : 26.333333333333332
+[08-14 02:00:30] New Score: 468, Best Score: 797, Average Score: 428.24
+ step num : 19 , max step num : 68, average step num : 26.04
+[08-14 02:00:34] New Score: 468, Best Score: 797, Average Score: 429.7692307692308
+ step num : 19 , max step num : 68, average step num : 25.76923076923077
+[08-14 02:00:38] New Score: 459, Best Score: 797, Average Score: 430.85185185185185
+ step num : 20 , max step num : 68, average step num : 25.555555555555557
+[08-14 02:00:41] New Score: 468, Best Score: 797, Average Score: 432.17857142857144
+ step num : 19 , max step num : 68, average step num : 25.321428571428573
+[08-14 02:00:45] New Score: 468, Best Score: 797, Average Score: 433.41379310344826
+ step num : 19 , max step num : 68, average step num : 25.103448275862068
+[08-14 02:00:49] New Score: 468, Best Score: 797, Average Score: 434.56666666666666
+ step num : 19 , max step num : 68, average step num : 24.9
+[08-14 02:00:53] New Score: 468, Best Score: 797, Average Score: 435.64516129032256
+ step num : 19 , max step num : 68, average step num : 24.70967741935484
+[08-14 02:00:57] New Score: 468, Best Score: 797, Average Score: 436.65625
+ step num : 19 , max step num : 68, average step num : 24.53125
+[08-14 02:01:01] New Score: 468, Best Score: 797, Average Score: 437.6060606060606
+ step num : 19 , max step num : 68, average step num : 24.363636363636363
+[08-14 02:01:05] New Score: 468, Best Score: 797, Average Score: 438.5
+ step num : 19 , max step num : 68, average step num : 24.205882352941178
+[08-14 02:01:09] New Score: 468, Best Score: 797, Average Score: 439.34285714285716
+ step num : 19 , max step num : 68, average step num : 24.057142857142857
+[08-14 02:01:13] New Score: 468, Best Score: 797, Average Score: 440.1388888888889
+ step num : 19 , max step num : 68, average step num : 23.916666666666668
+[08-14 02:01:17] New Score: 459, Best Score: 797, Average Score: 440.64864864864865
+ step num : 20 , max step num : 68, average step num : 23.81081081081081
+[08-14 02:01:21] New Score: 468, Best Score: 797, Average Score: 441.36842105263156
+ step num : 19 , max step num : 68, average step num : 23.68421052631579
+[08-14 02:01:25] New Score: 450, Best Score: 797, Average Score: 441.5897435897436
+ step num : 21 , max step num : 68, average step num : 23.615384615384617
+[08-14 02:01:30] New Score: 468, Best Score: 797, Average Score: 442.25
+ step num : 19 , max step num : 68, average step num : 23.5
+[08-14 02:01:33] New Score: 468, Best Score: 797, Average Score: 442.8780487804878
+ step num : 19 , max step num : 68, average step num : 23.390243902439025
+[08-14 02:01:37] New Score: 468, Best Score: 797, Average Score: 443.4761904761905
+ step num : 19 , max step num : 68, average step num : 23.285714285714285
+[08-14 02:01:55] New Score: 3027, Best Score: 3027, Average Score: 3027.0
+ step num : 48 , max step num : 48, average step num : 48.0
+[08-14 02:02:00] New Score: 624, Best Score: 3027, Average Score: 1825.5
+ step num : 25 , max step num : 48, average step num : 36.5
+[08-14 02:02:08] New Score: 1120, Best Score: 3027, Average Score: 1590.3333333333333
+ step num : 41 , max step num : 48, average step num : 38.0
+[08-14 02:02:13] New Score: 954, Best Score: 3027, Average Score: 1431.25
+ step num : 25 , max step num : 48, average step num : 34.75
+[08-14 02:02:20] New Score: 1135, Best Score: 3027, Average Score: 1372.0
+ step num : 36 , max step num : 48, average step num : 35.0
+[08-14 02:02:25] New Score: 1277, Best Score: 3027, Average Score: 1356.1666666666667
+ step num : 28 , max step num : 48, average step num : 33.833333333333336
+[08-14 02:02:30] New Score: 803, Best Score: 3027, Average Score: 1277.142857142857
+ step num : 24 , max step num : 48, average step num : 32.42857142857143
+[08-14 02:02:36] New Score: 988, Best Score: 3027, Average Score: 1241.0
+ step num : 29 , max step num : 48, average step num : 32.0
+[08-14 02:02:41] New Score: 1115, Best Score: 3027, Average Score: 1227.0
+ step num : 26 , max step num : 48, average step num : 31.333333333333332
+[08-14 02:02:45] New Score: 982, Best Score: 3027, Average Score: 1202.5
+ step num : 23 , max step num : 48, average step num : 30.5
+[08-14 02:02:51] New Score: 1276, Best Score: 3027, Average Score: 1209.1818181818182
+ step num : 27 , max step num : 48, average step num : 30.181818181818183
+[08-14 02:02:55] New Score: 950, Best Score: 3027, Average Score: 1187.5833333333333
+ step num : 21 , max step num : 48, average step num : 29.416666666666668
+[08-14 02:03:00] New Score: 864, Best Score: 3027, Average Score: 1162.6923076923076
+ step num : 25 , max step num : 48, average step num : 29.076923076923077
+[08-14 02:03:05] New Score: 1134, Best Score: 3027, Average Score: 1160.642857142857
+ step num : 25 , max step num : 48, average step num : 28.785714285714285
+[08-14 02:03:09] New Score: 1051, Best Score: 3027, Average Score: 1153.3333333333333
+ step num : 22 , max step num : 48, average step num : 28.333333333333332
+[08-14 02:03:14] New Score: 933, Best Score: 3027, Average Score: 1139.5625
+ step num : 24 , max step num : 48, average step num : 28.0625
+[08-14 02:03:18] New Score: 891, Best Score: 3027, Average Score: 1124.9411764705883
+ step num : 22 , max step num : 48, average step num : 27.705882352941178
+[08-14 02:03:22] New Score: 1060, Best Score: 3027, Average Score: 1121.3333333333333
+ step num : 21 , max step num : 48, average step num : 27.333333333333332
+[08-14 02:03:26] New Score: 918, Best Score: 3027, Average Score: 1110.6315789473683
+ step num : 19 , max step num : 48, average step num : 26.894736842105264
+[08-14 02:03:30] New Score: 918, Best Score: 3027, Average Score: 1101.0
+ step num : 19 , max step num : 48, average step num : 26.5
+[08-14 02:03:34] New Score: 950, Best Score: 3027, Average Score: 1093.8095238095239
+ step num : 21 , max step num : 48, average step num : 26.238095238095237
+[08-14 02:03:39] New Score: 760, Best Score: 3027, Average Score: 1078.6363636363637
+ step num : 21 , max step num : 48, average step num : 26.0
+[08-14 02:03:46] New Score: 918, Best Score: 3027, Average Score: 1071.6521739130435
+ step num : 19 , max step num : 48, average step num : 25.695652173913043
+[08-14 02:03:51] New Score: 959, Best Score: 3027, Average Score: 1066.9583333333333
+ step num : 20 , max step num : 48, average step num : 25.458333333333332
+[08-14 02:03:57] New Score: 918, Best Score: 3027, Average Score: 1061.0
+ step num : 19 , max step num : 48, average step num : 25.2
+[08-14 02:04:01] New Score: 918, Best Score: 3027, Average Score: 1055.5
+ step num : 19 , max step num : 48, average step num : 24.96153846153846
+[08-14 02:04:06] New Score: 918, Best Score: 3027, Average Score: 1050.4074074074074
+ step num : 19 , max step num : 48, average step num : 24.74074074074074
+[08-14 02:04:10] New Score: 918, Best Score: 3027, Average Score: 1045.6785714285713
+ step num : 19 , max step num : 48, average step num : 24.535714285714285
+[08-14 02:04:15] New Score: 918, Best Score: 3027, Average Score: 1041.2758620689656
+ step num : 19 , max step num : 48, average step num : 24.344827586206897
+[08-14 02:04:19] New Score: 918, Best Score: 3027, Average Score: 1037.1666666666667
+ step num : 19 , max step num : 48, average step num : 24.166666666666668
+[08-14 02:04:23] New Score: 918, Best Score: 3027, Average Score: 1033.3225806451612
+ step num : 19 , max step num : 48, average step num : 24.0
+[08-14 02:04:28] New Score: 918, Best Score: 3027, Average Score: 1029.71875
+ step num : 19 , max step num : 48, average step num : 23.84375
+[08-14 02:04:32] New Score: 918, Best Score: 3027, Average Score: 1026.3333333333333
+ step num : 19 , max step num : 48, average step num : 23.696969696969695
+[08-14 02:04:36] New Score: 918, Best Score: 3027, Average Score: 1023.1470588235294
+ step num : 19 , max step num : 48, average step num : 23.558823529411764
+[08-14 02:04:40] New Score: 918, Best Score: 3027, Average Score: 1020.1428571428571
+ step num : 19 , max step num : 48, average step num : 23.428571428571427
+[08-14 02:04:44] New Score: 918, Best Score: 3027, Average Score: 1017.3055555555555
+ step num : 19 , max step num : 48, average step num : 23.305555555555557
+[08-14 02:04:48] New Score: 918, Best Score: 3027, Average Score: 1014.6216216216217
+ step num : 19 , max step num : 48, average step num : 23.18918918918919
+[08-14 02:04:53] New Score: 918, Best Score: 3027, Average Score: 1012.078947368421
+ step num : 19 , max step num : 48, average step num : 23.07894736842105
+[08-14 02:04:57] New Score: 909, Best Score: 3027, Average Score: 1009.4358974358975
+ step num : 20 , max step num : 48, average step num : 23.0
+[08-14 02:05:01] New Score: 960, Best Score: 3027, Average Score: 1008.2
+ step num : 21 , max step num : 48, average step num : 22.95
+[08-14 02:05:06] New Score: 918, Best Score: 3027, Average Score: 1006.0
+ step num : 19 , max step num : 48, average step num : 22.853658536585368
+[08-14 02:05:10] New Score: 918, Best Score: 3027, Average Score: 1003.9047619047619
+ step num : 19 , max step num : 48, average step num : 22.761904761904763
+[08-14 02:05:14] New Score: 918, Best Score: 3027, Average Score: 1001.9069767441861
+ step num : 19 , max step num : 48, average step num : 22.674418604651162
+[08-14 02:05:18] New Score: 918, Best Score: 3027, Average Score: 1000.0
+ step num : 19 , max step num : 48, average step num : 22.59090909090909
+[08-14 02:05:23] New Score: 960, Best Score: 3027, Average Score: 999.1111111111111
+ step num : 21 , max step num : 48, average step num : 22.555555555555557
+[08-14 02:05:27] New Score: 918, Best Score: 3027, Average Score: 997.3478260869565
+ step num : 19 , max step num : 48, average step num : 22.47826086956522
+[08-14 02:05:31] New Score: 918, Best Score: 3027, Average Score: 995.6595744680851
+ step num : 19 , max step num : 48, average step num : 22.404255319148938
+[08-14 02:05:36] New Score: 918, Best Score: 3027, Average Score: 994.0416666666666
+ step num : 19 , max step num : 48, average step num : 22.333333333333332
+[08-14 02:05:40] New Score: 918, Best Score: 3027, Average Score: 992.4897959183673
+ step num : 19 , max step num : 48, average step num : 22.26530612244898
+[08-14 02:05:44] New Score: 918, Best Score: 3027, Average Score: 991.0
+ step num : 19 , max step num : 48, average step num : 22.2
+[08-14 02:05:48] New Score: 918, Best Score: 3027, Average Score: 989.5686274509804
+ step num : 19 , max step num : 48, average step num : 22.137254901960784
+[08-14 02:05:52] New Score: 918, Best Score: 3027, Average Score: 988.1923076923077
+ step num : 19 , max step num : 48, average step num : 22.076923076923077
+[08-14 02:05:57] New Score: 918, Best Score: 3027, Average Score: 986.8679245283018
+ step num : 19 , max step num : 48, average step num : 22.0188679245283
+[08-14 02:06:01] New Score: 918, Best Score: 3027, Average Score: 985.5925925925926
+ step num : 19 , max step num : 48, average step num : 21.962962962962962
+[08-14 02:06:05] New Score: 918, Best Score: 3027, Average Score: 984.3636363636364
+ step num : 19 , max step num : 48, average step num : 21.90909090909091
+[08-14 02:06:09] New Score: 918, Best Score: 3027, Average Score: 983.1785714285714
+ step num : 19 , max step num : 48, average step num : 21.857142857142858
+[08-14 02:06:14] New Score: 1060, Best Score: 3027, Average Score: 984.5263157894736
+ step num : 21 , max step num : 48, average step num : 21.842105263157894
+[08-14 02:06:18] New Score: 918, Best Score: 3027, Average Score: 983.3793103448276
+ step num : 19 , max step num : 48, average step num : 21.79310344827586
+[08-14 02:06:22] New Score: 918, Best Score: 3027, Average Score: 982.271186440678
+ step num : 19 , max step num : 48, average step num : 21.74576271186441
+[08-14 02:06:25] New Score: 918, Best Score: 3027, Average Score: 981.2
+ step num : 19 , max step num : 48, average step num : 21.7
+[08-14 02:06:29] New Score: 918, Best Score: 3027, Average Score: 980.1639344262295
+ step num : 19 , max step num : 48, average step num : 21.65573770491803
+[08-14 02:06:33] New Score: 918, Best Score: 3027, Average Score: 979.1612903225806
+ step num : 19 , max step num : 48, average step num : 21.612903225806452
+[08-14 02:06:38] New Score: 918, Best Score: 3027, Average Score: 978.1904761904761
+ step num : 19 , max step num : 48, average step num : 21.571428571428573
+[08-14 02:06:41] New Score: 918, Best Score: 3027, Average Score: 977.25
+ step num : 19 , max step num : 48, average step num : 21.53125
+[08-14 02:06:45] New Score: 918, Best Score: 3027, Average Score: 976.3384615384615
+ step num : 19 , max step num : 48, average step num : 21.49230769230769
+[08-14 02:06:49] New Score: 918, Best Score: 3027, Average Score: 975.4545454545455
+ step num : 19 , max step num : 48, average step num : 21.454545454545453
+[08-14 02:06:53] New Score: 918, Best Score: 3027, Average Score: 974.5970149253732
+ step num : 19 , max step num : 48, average step num : 21.417910447761194
+[08-14 02:06:57] New Score: 918, Best Score: 3027, Average Score: 973.7647058823529
+ step num : 19 , max step num : 48, average step num : 21.38235294117647
+[08-14 02:07:01] New Score: 918, Best Score: 3027, Average Score: 972.9565217391304
+ step num : 19 , max step num : 48, average step num : 21.347826086956523
+[08-14 02:07:05] New Score: 918, Best Score: 3027, Average Score: 972.1714285714286
+ step num : 19 , max step num : 48, average step num : 21.314285714285713
+[08-14 02:07:09] New Score: 918, Best Score: 3027, Average Score: 971.4084507042254
+ step num : 19 , max step num : 48, average step num : 21.281690140845072
+[08-14 02:07:13] New Score: 918, Best Score: 3027, Average Score: 970.6666666666666
+ step num : 19 , max step num : 48, average step num : 21.25
+[08-14 02:07:17] New Score: 809, Best Score: 3027, Average Score: 968.4520547945206
+ step num : 20 , max step num : 48, average step num : 21.232876712328768
+[08-14 02:07:21] New Score: 918, Best Score: 3027, Average Score: 967.7702702702703
+ step num : 19 , max step num : 48, average step num : 21.2027027027027
+[08-14 02:07:25] New Score: 918, Best Score: 3027, Average Score: 967.1066666666667
+ step num : 19 , max step num : 48, average step num : 21.173333333333332
+[08-14 02:07:29] New Score: 918, Best Score: 3027, Average Score: 966.4605263157895
+ step num : 19 , max step num : 48, average step num : 21.144736842105264
+[08-14 02:07:33] New Score: 918, Best Score: 3027, Average Score: 965.8311688311688
+ step num : 19 , max step num : 48, average step num : 21.116883116883116
+[08-14 02:07:37] New Score: 918, Best Score: 3027, Average Score: 965.2179487179487
+ step num : 19 , max step num : 48, average step num : 21.08974358974359
+[08-14 02:07:41] New Score: 858, Best Score: 3027, Average Score: 963.8607594936709
+ step num : 19 , max step num : 48, average step num : 21.063291139240505
+[08-14 02:07:44] New Score: 918, Best Score: 3027, Average Score: 963.2875
+ step num : 19 , max step num : 48, average step num : 21.0375
+[08-14 02:07:48] New Score: 918, Best Score: 3027, Average Score: 962.7283950617284
+ step num : 19 , max step num : 48, average step num : 21.012345679012345
+[08-14 02:07:53] New Score: 959, Best Score: 3027, Average Score: 962.6829268292682
+ step num : 20 , max step num : 48, average step num : 21.0
+[08-14 02:08:41] New Score: 941, Best Score: 941, Average Score: 941.0
+ step num : 22 , max step num : 22, average step num : 22.0
+[08-14 02:08:49] New Score: 1919, Best Score: 1919, Average Score: 1430.0
+ step num : 40 , max step num : 40, average step num : 31.0
+[08-14 02:09:00] New Score: 1794, Best Score: 1919, Average Score: 1551.3333333333333
+ step num : 55 , max step num : 55, average step num : 39.0
+[08-14 02:09:09] New Score: 1412, Best Score: 1919, Average Score: 1516.5
+ step num : 43 , max step num : 55, average step num : 40.0
+[08-14 02:09:13] New Score: 300, Best Score: 1919, Average Score: 1273.2
+ step num : 21 , max step num : 55, average step num : 36.2
+[08-14 02:09:19] New Score: 495, Best Score: 1919, Average Score: 1143.5
+ step num : 26 , max step num : 55, average step num : 34.5
+[08-14 02:09:25] New Score: 1008, Best Score: 1919, Average Score: 1124.142857142857
+ step num : 29 , max step num : 55, average step num : 33.714285714285715
+[08-14 02:09:29] New Score: 474, Best Score: 1919, Average Score: 1042.875
+ step num : 25 , max step num : 55, average step num : 32.625
+[08-14 02:09:33] New Score: 197, Best Score: 1919, Average Score: 948.8888888888889
+ step num : 18 , max step num : 55, average step num : 31.0
+[08-14 02:09:37] New Score: 959, Best Score: 1919, Average Score: 949.9
+ step num : 20 , max step num : 55, average step num : 29.9
+[08-14 02:09:42] New Score: 1051, Best Score: 1919, Average Score: 959.0909090909091
+ step num : 22 , max step num : 55, average step num : 29.181818181818183
+[08-14 02:09:47] New Score: 959, Best Score: 1919, Average Score: 959.0833333333334
+ step num : 20 , max step num : 55, average step num : 28.416666666666668
+[08-14 02:09:51] New Score: 909, Best Score: 1919, Average Score: 955.2307692307693
+ step num : 20 , max step num : 55, average step num : 27.76923076923077
+[08-14 02:09:55] New Score: 909, Best Score: 1919, Average Score: 951.9285714285714
+ step num : 20 , max step num : 55, average step num : 27.214285714285715
+[08-14 02:10:00] New Score: 1051, Best Score: 1919, Average Score: 958.5333333333333
+ step num : 22 , max step num : 55, average step num : 26.866666666666667
+[08-14 02:10:05] New Score: 891, Best Score: 1919, Average Score: 954.3125
+ step num : 22 , max step num : 55, average step num : 26.5625
+[08-14 02:10:09] New Score: 809, Best Score: 1919, Average Score: 945.7647058823529
+ step num : 20 , max step num : 55, average step num : 26.176470588235293
+[08-14 02:10:13] New Score: 498, Best Score: 1919, Average Score: 920.8888888888889
+ step num : 19 , max step num : 55, average step num : 25.77777777777778
+[08-14 02:10:27] New Score: 840, Best Score: 840, Average Score: 840.0
+ step num : 21 , max step num : 21, average step num : 21.0
+[08-14 02:10:33] New Score: 1632, Best Score: 1632, Average Score: 1632.0
+ step num : 33 , max step num : 33, average step num : 33.0
+[08-14 02:11:39] New Score: 2932, Best Score: 2932, Average Score: 2932.0
+ step num : 53 , max step num : 53, average step num : 53.0
+[08-14 02:16:36] New Score: 1285, Best Score: 1285, Average Score: 1285.0
+ step num : 26 , max step num : 26, average step num : 26.0

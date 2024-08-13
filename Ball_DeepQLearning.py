@@ -6,7 +6,7 @@ import numpy as np
 from collections import deque
 import tensorflow as tf
 from tensorflow.keras import Sequential
-from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 import datetime
 
@@ -62,6 +62,7 @@ class MovingBallsEnv:
         self.canvas.pack(expand=1, fill=tk.BOTH)
         self.player = None
 
+    # 환경 초기화 및 초기 상태 반환
     def Reset(self):
         self.Clear()
         self.player = Ball(self.canvas, "green", 400, 200, 25, 10, 0)
@@ -70,12 +71,14 @@ class MovingBallsEnv:
             self.balls.append(Ball(self.canvas, "red", 100, 100, 25, random.randint(1, 10), random.randint(1, 10)))
         return self.MakeState()
 
+    # 현재 캔버스에서 모든 공 제거
     def Clear(self):
         if self.player:
             self.player.Delete()
             for ball in self.balls:
                 ball.Delete()
 
+    # 플레이어와 공들을 움직이고, 충돌 여부 확인 및 보상 계산
     def Move(self):
         done = False
         reward = 1
@@ -100,11 +103,12 @@ class MovingBallsEnv:
             ball.Move()
             ball.CheckCollisionWall()
 
+        # 빨간 공과의 거리 계산
         new_distance_sum = sum(
             [math.sqrt((self.player.x - ball.x) ** 2 + (self.player.y - ball.y) ** 2) for ball in self.balls])
 
         if new_distance_sum > distance_sum:
-            reward += 10  # 공들과의 거리가 멀어지면 보상 증가
+            reward += 50  # 공들과의 거리가 멀어지면 보상 증가
         else:
             reward -= 10  # 공들과의 거리가 가까워지면 페널티
 
@@ -116,12 +120,14 @@ class MovingBallsEnv:
 
         return self.MakeState(), reward, done
 
+    # 현재 상태 정보를 생성하여 반환
     def MakeState(self):
         state = [self.player.x, self.player.y, self.player.speed_x, self.player.speed_y]
         for ball in self.balls:
             state.extend([ball.x, ball.y, ball.speed_x, ball.speed_y])
         return np.array(state)
 
+    # 주어진 행동(action)에 따라 플레이어를 이동시키고 환경을 업데이트
     def Step(self, action):
         if action == 0:  # 동
             self.player.SetSpeed(10, 0)
@@ -139,7 +145,7 @@ class DQNAgent:
     def __init__(self, state_size, action_size):
         self.state_size = state_size
         self.action_size = action_size
-        self.memory = deque(maxlen=2000)
+        self.memory = deque(maxlen=100)
         self.gamma = 0.95    # 감마 값
         self.epsilon = 1.0   # 탐험율
         self.epsilon_min = 0.01
@@ -153,21 +159,28 @@ class DQNAgent:
     def _build_model(self):
         model = Sequential()
         model.add(Dense(64, input_dim=self.state_size, activation='relu'))
+        model.add(Dropout(0.3))
         model.add(Dense(64, activation='relu'))
+        model.add(Dropout(0.3))
         model.add(Dense(32, activation='relu'))
+        model.add(Dropout(0.3))
         model.add(Dense(self.action_size, activation='linear'))
         model.compile(loss='mse', optimizer=Adam(learning_rate=self.learning_rate))
         return model
 
+    # 경험을 메모리에 저장
+    # replay 메소드에서 과거 샘플링할 때 씀
     def remember(self, state, action, reward, next_state, done):
         self.memory.append((state, action, reward, next_state, done))
 
+    # 현재 상태에 따라 행동 결정
     def act(self, state):
         if np.random.rand() <= self.epsilon:
             return random.randrange(self.action_size)
         act_values = self.model.predict(state)
         return np.argmax(act_values[0])
 
+    # 저장된 경험으로 학습
     def replay(self, batch_size):
         minibatch = random.sample(self.memory, batch_size)
         for state, action, reward, next_state, done in minibatch:
@@ -221,8 +234,6 @@ def main():
 
     step()
 
-
-# 환경 만들기
 window = tk.Tk()
 env = MovingBallsEnv(window)
 
